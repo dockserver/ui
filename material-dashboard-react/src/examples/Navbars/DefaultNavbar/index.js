@@ -117,7 +117,7 @@ function DefaultNavbar({ transparent, light, action }) {
           <DefaultNavbarLink icon="donut_large" name="dashboard" route="/" light={light} />
           <DefaultNavbarLink icon="person" name="profile" route="/profile" light={light} />
           <DefaultNavbarLink icon="account_circle" name="inprogress" route="/inprogress" light={light} />
-          <DefaultNavbarLink icon="person" name="complete" route="/completed light={light} />
+          <DefaultNavbarLink icon="person" name="complete" route="/completed" light={light} />
         </MDBox>
         {action &&
           (action.type === "internal" ? (
