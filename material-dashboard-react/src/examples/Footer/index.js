@@ -106,7 +106,7 @@ Footer.defaultProps = {
   ],
 };
 
-/* eslint react/prop-types: 0 */
+/* eslint react/forbid-prop-types: 0 */
 // Typechecking props for the Footer
 Footer.propTypes = {
   company: PropTypes.objectOf(PropTypes.string),
