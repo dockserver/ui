@@ -14,8 +14,8 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Avatar from "@mui/joy/Avatar";
-import { styled } from "@mui/joy/styles";
+import Avatar from "@mui/material/Avatar";
+import { styled } from "@mui/material/styles";
 
 export default styled(Avatar)(({ theme, ownerState }) => {
     const { palette, functions, typography, boxShadows } = theme;

@@ -17,7 +17,7 @@ Coded by www.creative-tim.com
 import PropTypes from "prop-types";
 
 // @mui material components
-import Menu from "@mui/joy/Menu";
+import Menu from "@mui/material/Menu";
 
 // Uploader Dashboard 2 components
 import MDBox from "components/MDBox";

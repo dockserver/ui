@@ -19,11 +19,11 @@ import { useState, useEffect } from "react";
 import GitHubButton from "react-github-btn";
 
 // @mui material components
-import Divider from "@mui/joy/Divider";
-import Switch from "@mui/joy/Switch";
-import IconButton from "@mui/joy/IconButton";
-import Link from "@mui/joy/Link";
-import Icon from "@mui/joy/Icon";
+import Divider from "@mui/material/Divider";
+import Switch from "@mui/material/Switch";
+import IconButton from "@mui/material/IconButton";
+import Link from "@mui/material/Link";
+import Icon from "@mui/material/Icon";
 
 // @mui icons
 import TwitterIcon from "@mui/icons-material/Twitter";

@@ -14,8 +14,8 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Badge from "@mui/joy/Badge";
-import { styled } from "@mui/joy/styles";
+import Badge from "@mui/material/Badge";
+import { styled } from "@mui/material/styles";
 
 export default styled(Badge)(({ theme, ownerState }) => {
     const { palette, typography, borders, functions } = theme;

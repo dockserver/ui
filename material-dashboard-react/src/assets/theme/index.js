@@ -14,7 +14,7 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import { createTheme } from "@mui/joy/styles";
+import { createTheme } from "@mui/material/styles";
 
 // Uploader Dashboard 2 base styles
 import colors from "assets/theme/base/colors";

@@ -22,11 +22,11 @@ import { useLocation, Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 // @material-ui core components
-import AppBar from "@mui/joy/AppBar";
-import Toolbar from "@mui/joy/Toolbar";
-import IconButton from "@mui/joy/IconButton";
-import Menu from "@mui/joy/Menu";
-import Icon from "@mui/joy/Icon";
+import AppBar from "@mui/material/AppBar";
+import Toolbar from "@mui/material/Toolbar";
+import IconButton from "@mui/material/IconButton";
+import Menu from "@mui/material/Menu";
+import Icon from "@mui/material/Icon";
 
 // Uploader Dashboard 2 components
 import MDBox from "components/MDBox";

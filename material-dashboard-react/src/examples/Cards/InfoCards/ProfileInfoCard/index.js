@@ -20,10 +20,10 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 // @mui material components
-import Card from "@mui/joy/Card";
-import Divider from "@mui/joy/Divider";
-import Tooltip from "@mui/joy/Tooltip";
-import Icon from "@mui/joy/Icon";
+import Card from "@mui/material/Card";
+import Divider from "@mui/material/Divider";
+import Tooltip from "@mui/material/Tooltip";
+import Icon from "@mui/material/Icon";
 
 // Uploader Dashboard 2 components
 import MDBox from "components/MDBox";

@@ -14,8 +14,8 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import { createTheme } from "@mui/joy/styles";
-// import Fade from "@mui/joy/Fade";
+import { createTheme } from "@mui/material/styles";
+// import Fade from "@mui/material/Fade";
 
 // Uploader Dashboard 2 base styles
 import colors from "assets/theme-dark/base/colors";

@@ -22,8 +22,8 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 // @mui material components
-import Container from "@mui/joy/Container";
-import Icon from "@mui/joy/Icon";
+import Container from "@mui/material/Container";
+import Icon from "@mui/material/Icon";
 
 // Uploader Dashboard 2 components
 import MDBox from "components/MDBox";

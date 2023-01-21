@@ -22,10 +22,10 @@ import { useLocation, NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
 
 // @mui material components
-import List from "@mui/joy/List";
-import Divider from "@mui/joy/Divider";
-import Link from "@mui/joy/Link";
-import Icon from "@mui/joy/Icon";
+import List from "@mui/material/List";
+import Divider from "@mui/material/Divider";
+import Link from "@mui/material/Link";
+import Icon from "@mui/material/Icon";
 
 // Uploader Dashboard 2 components
 import MDBox from "components/MDBox";

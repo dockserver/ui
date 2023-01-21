@@ -14,8 +14,8 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import TextField from "@mui/joy/TextField";
-import { styled } from "@mui/joy/styles";
+import TextField from "@mui/material/TextField";
+import { styled } from "@mui/material/styles";
 
 export default styled(TextField)(({ theme, ownerState }) => {
     const { palette, functions } = theme;

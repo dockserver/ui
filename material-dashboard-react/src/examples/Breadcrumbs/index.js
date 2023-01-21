@@ -20,8 +20,8 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 // @mui material components
-import { Breadcrumbs as MuiBreadcrumbs } from "@mui/joy";
-import Icon from "@mui/joy/Icon";
+import { Breadcrumbs as MuiBreadcrumbs } from "@mui/material";
+import Icon from "@mui/material/Icon";
 
 // Uploader Dashboard 2 components
 import MDBox from "components/MDBox";

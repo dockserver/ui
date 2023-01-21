@@ -24,12 +24,12 @@ import PropTypes from "prop-types";
 import { useTable, usePagination, useGlobalFilter, useAsyncDebounce, useSortBy } from "react-table";
 
 // @mui material components
-import Table from "@mui/joy/Table";
-import TableBody from "@mui/joy/TableBody";
-import TableContainer from "@mui/joy/TableContainer";
-import TableRow from "@mui/joy/TableRow";
-import Icon from "@mui/joy/Icon";
-import Autocomplete from "@mui/joy/Autocomplete";
+import Table from "@mui/material/Table";
+import TableBody from "@mui/material/TableBody";
+import TableContainer from "@mui/material/TableContainer";
+import TableRow from "@mui/material/TableRow";
+import Icon from "@mui/material/Icon";
+import Autocomplete from "@mui/material/Autocomplete";
 
 // Uploader Dashboard 2 components
 import MDBox from "components/MDBox";

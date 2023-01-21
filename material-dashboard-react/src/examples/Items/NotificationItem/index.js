@@ -19,8 +19,8 @@ import { forwardRef } from "react";
 import PropTypes from "prop-types";
 
 // @mui material components
-import MenuItem from "@mui/joy/MenuItem";
-import Link from "@mui/joy/Link";
+import MenuItem from "@mui/material/MenuItem";
+import Link from "@mui/material/Link";
 
 // Uploader Dashboard 2 components
 import MDBox from "components/MDBox";

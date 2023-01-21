@@ -17,10 +17,10 @@ Coded by www.creative-tim.com
 import PropTypes from "prop-types";
 
 // @mui material components
-import ListItem from "@mui/joy/ListItem";
-import ListItemIcon from "@mui/joy/ListItemIcon";
-import ListItemText from "@mui/joy/ListItemText";
-import Icon from "@mui/joy/Icon";
+import ListItem from "@mui/material/ListItem";
+import ListItemIcon from "@mui/material/ListItemIcon";
+import ListItemText from "@mui/material/ListItemText";
+import Icon from "@mui/material/Icon";
 
 // Uploader Dashboard 2 components
 import MDBox from "components/MDBox";

@@ -20,8 +20,8 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 // @mui material components
-import Card from "@mui/joy/Card";
-import MuiLink from "@mui/joy/Link";
+import Card from "@mui/material/Card";
+import MuiLink from "@mui/material/Link";
 
 // Uploader Dashboard 2 components
 import MDBox from "components/MDBox";

@@ -19,7 +19,7 @@ import { useState } from "react";
 import PropTypes from "prop-types";
 
 // @mui material components
-import Fade from "@mui/joy/Fade";
+import Fade from "@mui/material/Fade";
 
 // Uploader Dashboard 2 components
 import MDBox from "components/MDBox";

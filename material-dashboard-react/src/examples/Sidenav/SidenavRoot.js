@@ -14,8 +14,8 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Drawer from "@mui/joy/Drawer";
-import { styled } from "@mui/joy/styles";
+import Drawer from "@mui/material/Drawer";
+import { styled } from "@mui/material/styles";
 
 export default styled(Drawer)(({ theme, ownerState }) => {
     const { palette, boxShadows, transitions, breakpoints, functions } = theme;

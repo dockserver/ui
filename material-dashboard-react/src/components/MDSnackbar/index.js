@@ -17,11 +17,11 @@ Coded by www.creative-tim.com
 import PropTypes from "prop-types";
 
 // @mui material components
-import Snackbar from "@mui/joy/Snackbar";
-import IconButton from "@mui/joy/IconButton";
-import Icon from "@mui/joy/Icon";
-import Divider from "@mui/joy/Divider";
-import Fade from "@mui/joy/Fade";
+import Snackbar from "@mui/material/Snackbar";
+import IconButton from "@mui/material/IconButton";
+import Icon from "@mui/material/Icon";
+import Divider from "@mui/material/Divider";
+import Fade from "@mui/material/Fade";
 
 // Uploader Dashboard 2 components
 import MDBox from "components/MDBox";

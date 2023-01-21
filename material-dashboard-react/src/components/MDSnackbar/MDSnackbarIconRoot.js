@@ -14,8 +14,8 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Icon from "@mui/joy/Icon";
-import { styled } from "@mui/joy/styles";
+import Icon from "@mui/material/Icon";
+import { styled } from "@mui/material/styles";
 
 export default styled(Icon)(({ theme, ownerState }) => {
     const { palette, functions, typography } = theme;
