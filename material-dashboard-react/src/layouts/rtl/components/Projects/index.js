@@ -16,10 +16,10 @@ Coded by www.creative-tim.com
 import { useState } from "react";
 
 // @mui material components
-import Card from "@mui/joy/Card";
-import Icon from "@mui/joy/Icon";
-import Menu from "@mui/joy/Menu";
-import MenuItem from "@mui/joy/MenuItem";
+import Card from "@mui/material/Card";
+import Icon from "@mui/material/Icon";
+import Menu from "@mui/material/Menu";
+import MenuItem from "@mui/material/MenuItem";
 
 // Uploader Dashboard 2 components
 import MDBox from "components/MDBox";

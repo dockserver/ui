@@ -16,7 +16,7 @@ Coded by www.creative-tim.com
 import { useEffect } from "react";
 
 // @mui material components
-import Grid from "@mui/joy/Grid";
+import Grid from "@mui/material/Grid";
 
 // Uploader Dashboard 2 components
 import MDBox from "components/MDBox";

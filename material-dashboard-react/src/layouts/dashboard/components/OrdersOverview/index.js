@@ -14,8 +14,8 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Card from "@mui/joy/Card";
-import Icon from "@mui/joy/Icon";
+import Card from "@mui/material/Card";
+import Icon from "@mui/material/Icon";
 
 // Uploader Dashboard 2 components
 import MDBox from "components/MDBox";

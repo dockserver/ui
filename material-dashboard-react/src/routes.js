@@ -42,7 +42,7 @@ import Uploading from "layouts/uploading";
 import Done from "layouts/comeplete";
 
 // @mui icons
-import Icon from "@mui/joy/Icon";
+import Icon from "@mui/material/Icon";
 
 const routes = [{
         type: "collapse",

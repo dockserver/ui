@@ -16,7 +16,7 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Tooltip from "@mui/joy/Tooltip";
+import Tooltip from "@mui/material/Tooltip";
 
 // Uploader Dashboard 2 components
 import MDBox from "components/MDBox";
@@ -94,15 +94,16 @@ export default function data() {
         rows: [{
                 المشروع: ( <
                     Company image = { logoXD }
-                    name = "/** === === === === ===
-                    === === === === === === === === === === === === === ===
+                    name = "/** === === === === === ===
+                    === === === === === === === === === === === === ===
                     *
                     Uploader Dashboard 2 - v2 .1 .0 ===
                     ===
                     ===
                     ===
                     ===
-                    === === === === === === === === === === === === === ===
+                    ===
+                    === === === === === === === === === === === === ===
 
                     *
                     Product Page: https: //www.creative-tim.com/product/material-dashboard-react
@@ -116,7 +117,8 @@ export default function data() {
                         ===
                         ===
                         ===
-                        === === === === === === === === === === === === === ===
+                        ===
+                        === === === === === === === === === === === === ===
 
                         *
                         The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.*/ الإصدار" / >

@@ -16,8 +16,8 @@ Coded by www.creative-tim.com
 import { useState } from "react";
 
 // @mui material components
-import Grid from "@mui/joy/Grid";
-import Card from "@mui/joy/Card";
+import Grid from "@mui/material/Grid";
+import Card from "@mui/material/Card";
 
 // Uploader Dashboard 2 components
 import MDBox from "components/MDBox";
