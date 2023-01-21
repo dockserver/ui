@@ -67,6 +67,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
+        "lint": "eslint {src,public,app}/**/**/**/*.{js,ts,tsx,jsx} --fix"
         "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
    },
   "eslintConfig": {
