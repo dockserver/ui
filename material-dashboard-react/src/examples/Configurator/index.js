@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Uploader Dashboard 2 - v2.1.0
+* Material Dashboard 2 React - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-dashboard-react
@@ -29,7 +29,7 @@ import Icon from "@mui/material/Icon";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
 
-// Uploader Dashboard 2 components
+// Material Dashboard 2 React components
 import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 import MDButton from "components/MDButton";
@@ -37,7 +37,7 @@ import MDButton from "components/MDButton";
 // Custom styles for the Configurator
 import ConfiguratorRoot from "examples/Configurator/ConfiguratorRoot";
 
-// Uploader Dashboard 2 context
+// Material Dashboard 2 React context
 import {
     useMaterialUIController,
     setOpenConfigurator,
@@ -325,11 +325,11 @@ function Configurator() {
         MDBox display = "flex"
         justifyContent = "center" >
         <
-        GitHubButton href = "https://github.com/dockserver/ui"
+        GitHubButton href = "https://github.com/creativetimofficial/material-dashboard-react"
         data - icon = "octicon-star"
         data - size = "large"
         data - show - count = "true"
-        aria - label = "Star dockserver/ui on GitHub" >
+        aria - label = "Star creativetimofficial/material-dashboard-react on GitHub" >
         Star <
         /GitHubButton> < /
         MDBox > <
@@ -343,9 +343,35 @@ function Configurator() {
         MDBox >
 
         <
-        /MDBox> < /
-        M DBox > <
+        MDBox display = "flex"
+        justifyContent = "center" >
         <
+        MDBox mr = { 1.5 } >
+        <
+        MDButton component = { Link }
+        href = "//twitter.com/intent/tweet?text=Check%20Material%20Dashboard%20React%20made%20by%20%40CreativeTim%20%23webdesign%20%23dashboard%20%23react%20%mui&url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fmaterial-dashboard-react"
+        target = "_blank"
+        rel = "noreferrer"
+        color = "dark" >
+        <
+        TwitterIcon / >
+        &
+        nbsp; Tweet <
+        /MDButton> < /
+        MDBox > <
+        MDButton component = { Link }
+        href = "https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/material-dashboard-react"
+        target = "_blank"
+        rel = "noreferrer"
+        color = "dark" >
+        <
+        FacebookIcon / >
+        &
+        nbsp; Share <
+        /MDButton> < /
+        MDBox > <
+        /MDBox> < /
+        MDBox > <
         /ConfiguratorRoot>
     );
 }

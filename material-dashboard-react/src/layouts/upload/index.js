@@ -21,7 +21,7 @@ import MDBox from "components/MDBox";
 
 // Uploader Upload 2 example components
 import UploadLayout from "examples/LayoutContainers/UploadLayout";
-import DashboardNavbar from "examples/Navbars/DashboardNavbar;
+import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
 import ReportsBarChart from "examples/Charts/BarCharts/ReportsBarChart";
 import ReportsLineChart from "examples/Charts/LineCharts/ReportsLineChart";
