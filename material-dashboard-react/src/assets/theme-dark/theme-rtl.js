@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Material Dashboard 2 React - v2.1.0
+* Uploader Dashboard 2 - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-dashboard-react
@@ -14,10 +14,10 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import { createTheme } from "@mui/material/styles";
-// import Fade from "@mui/material/Fade";
+import { createTheme } from "@mui/joy/styles";
+// import Fade from "@mui/joy/Fade";
 
-// Material Dashboard 2 React base styles
+// Uploader Dashboard 2 base styles
 import colors from "assets/theme-dark/base/colors";
 import breakpoints from "assets/theme-dark/base/breakpoints";
 import typography from "assets/theme-dark/base/typography";
@@ -25,14 +25,14 @@ import boxShadows from "assets/theme-dark/base/boxShadows";
 import borders from "assets/theme-dark/base/borders";
 import globals from "assets/theme-dark/base/globals";
 
-// Material Dashboard 2 React helper functions
+// Uploader Dashboard 2 helper functions
 import boxShadow from "assets/theme-dark/functions/boxShadow";
 import hexToRgb from "assets/theme-dark/functions/hexToRgb";
 import linearGradient from "assets/theme-dark/functions/linearGradient";
 import pxToRem from "assets/theme-dark/functions/pxToRem";
 import rgba from "assets/theme-dark/functions/rgba";
 
-// Material Dashboard 2 React components base styles for @mui material components
+// Uploader Dashboard 2 components base styles for @mui material components
 import sidenav from "assets/theme-dark/components/sidenav";
 import list from "assets/theme-dark/components/list";
 import listItem from "assets/theme-dark/components/list/listItem";
@@ -85,75 +85,75 @@ import dialogContentText from "assets/theme-dark/components/dialog/dialogContent
 import dialogActions from "assets/theme-dark/components/dialog/dialogActions";
 
 export default createTheme({
-  direction: "rtl",
-  breakpoints: { ...breakpoints },
-  palette: { ...colors },
-  typography: { ...typography },
-  boxShadows: { ...boxShadows },
-  borders: { ...borders },
-  functions: {
-    boxShadow,
-    hexToRgb,
-    linearGradient,
-    pxToRem,
-    rgba,
-  },
-
-  components: {
-    MuiCssBaseline: {
-      styleOverrides: {
-        ...globals,
-        ...container,
-      },
+    direction: "rtl",
+    breakpoints: {...breakpoints },
+    palette: {...colors },
+    typography: {...typography },
+    boxShadows: {...boxShadows },
+    borders: {...borders },
+    functions: {
+        boxShadow,
+        hexToRgb,
+        linearGradient,
+        pxToRem,
+        rgba,
     },
-    MuiDrawer: { ...sidenav },
-    MuiList: { ...list },
-    MuiListItem: { ...listItem },
-    MuiListItemText: { ...listItemText },
-    MuiCard: { ...card },
-    MuiCardMedia: { ...cardMedia },
-    MuiCardContent: { ...cardContent },
-    MuiButton: { ...button },
-    MuiIconButton: { ...iconButton },
-    MuiInput: { ...input },
-    MuiInputLabel: { ...inputLabel },
-    MuiOutlinedInput: { ...inputOutlined },
-    MuiTextField: { ...textField },
-    MuiMenu: { ...menu },
-    MuiMenuItem: { ...menuItem },
-    MuiSwitch: { ...switchButton },
-    MuiDivider: { ...divider },
-    MuiTableContainer: { ...tableContainer },
-    MuiTableHead: { ...tableHead },
-    MuiTableCell: { ...tableCell },
-    MuiLinearProgress: { ...linearProgress },
-    MuiBreadcrumbs: { ...breadcrumbs },
-    MuiSlider: { ...slider },
-    MuiAvatar: { ...avatar },
-    MuiTooltip: { ...tooltip },
-    MuiAppBar: { ...appBar },
-    MuiTabs: { ...tabs },
-    MuiTab: { ...tab },
-    MuiStepper: { ...stepper },
-    MuiStep: { ...step },
-    MuiStepConnector: { ...stepConnector },
-    MuiStepLabel: { ...stepLabel },
-    MuiStepIcon: { ...stepIcon },
-    MuiSelect: { ...select },
-    MuiFormControlLabel: { ...formControlLabel },
-    MuiFormLabel: { ...formLabel },
-    MuiCheckbox: { ...checkbox },
-    MuiRadio: { ...radio },
-    MuiAutocomplete: { ...autocomplete },
-    MuiPopover: { ...popover },
-    MuiButtonBase: { ...buttonBase },
-    MuiIcon: { ...icon },
-    MuiSvgIcon: { ...svgIcon },
-    MuiLink: { ...link },
-    MuiDialog: { ...dialog },
-    MuiDialogTitle: { ...dialogTitle },
-    MuiDialogContent: { ...dialogContent },
-    MuiDialogContentText: { ...dialogContentText },
-    MuiDialogActions: { ...dialogActions },
-  },
+
+    components: {
+        MuiCssBaseline: {
+            styleOverrides: {
+                ...globals,
+                ...container,
+            },
+        },
+        MuiDrawer: {...sidenav },
+        MuiList: {...list },
+        MuiListItem: {...listItem },
+        MuiListItemText: {...listItemText },
+        MuiCard: {...card },
+        MuiCardMedia: {...cardMedia },
+        MuiCardContent: {...cardContent },
+        MuiButton: {...button },
+        MuiIconButton: {...iconButton },
+        MuiInput: {...input },
+        MuiInputLabel: {...inputLabel },
+        MuiOutlinedInput: {...inputOutlined },
+        MuiTextField: {...textField },
+        MuiMenu: {...menu },
+        MuiMenuItem: {...menuItem },
+        MuiSwitch: {...switchButton },
+        MuiDivider: {...divider },
+        MuiTableContainer: {...tableContainer },
+        MuiTableHead: {...tableHead },
+        MuiTableCell: {...tableCell },
+        MuiLinearProgress: {...linearProgress },
+        MuiBreadcrumbs: {...breadcrumbs },
+        MuiSlider: {...slider },
+        MuiAvatar: {...avatar },
+        MuiTooltip: {...tooltip },
+        MuiAppBar: {...appBar },
+        MuiTabs: {...tabs },
+        MuiTab: {...tab },
+        MuiStepper: {...stepper },
+        MuiStep: {...step },
+        MuiStepConnector: {...stepConnector },
+        MuiStepLabel: {...stepLabel },
+        MuiStepIcon: {...stepIcon },
+        MuiSelect: {...select },
+        MuiFormControlLabel: {...formControlLabel },
+        MuiFormLabel: {...formLabel },
+        MuiCheckbox: {...checkbox },
+        MuiRadio: {...radio },
+        MuiAutocomplete: {...autocomplete },
+        MuiPopover: {...popover },
+        MuiButtonBase: {...buttonBase },
+        MuiIcon: {...icon },
+        MuiSvgIcon: {...svgIcon },
+        MuiLink: {...link },
+        MuiDialog: {...dialog },
+        MuiDialogTitle: {...dialogTitle },
+        MuiDialogContent: {...dialogContent },
+        MuiDialogContentText: {...dialogContentText },
+        MuiDialogActions: {...dialogActions },
+    },
 });

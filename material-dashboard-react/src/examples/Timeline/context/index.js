@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Material Dashboard 2 React - v2.1.0
+* Uploader Dashboard 2 - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-dashboard-react
@@ -25,12 +25,12 @@ const Timeline = createContext();
 
 // Timeline context provider
 function TimelineProvider({ children, value }) {
-  return <Timeline.Provider value={value}>{children}</Timeline.Provider>;
+    return <Timeline.Provider value = { value } > { children } < /Timeline.Provider>;
 }
 
 // Timeline custom hook for using context
 function useTimeline() {
-  return useContext(Timeline);
+    return useContext(Timeline);
 }
 
 export { TimelineProvider, useTimeline };

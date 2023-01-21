@@ -50,7 +50,7 @@
 
 - Migration from Material-UI to MUI v5.
 - Migration from JSS to `styled` api, emotion and `sx` prop.
-- Product folders and files structured are updated: [README](https://github.com/creativetimofficial/material-dashboard-react/blob/main/README.md)
+- Product folders and files structured are updated: [README](https://github.com/dockserver/ui/blob/main/README.md)
 - New components are added
 - New example blocks are added
 - Components are Example Blocks are now totally customizable and reusable
@@ -174,12 +174,12 @@ web-vitals
 
 ### Bug fixing
 
-- https://github.com/creativetimofficial/material-dashboard-react/issues/145 (this was solved since we've changed react-google-maps with simple Google Maps API)
-- https://github.com/creativetimofficial/material-dashboard-react/issues/140 (this was solved since we've changed react-google-maps with simple Google Maps API)
-- https://github.com/creativetimofficial/material-dashboard-react/issues/138 (can be closed since it was help wanted)
-- https://github.com/creativetimofficial/material-dashboard-react/issues/137 (user did not respond)
-- https://github.com/creativetimofficial/material-dashboard-react/issues/133 (fixed it by using `useLocation` from `react-router-dom`)
-- https://github.com/creativetimofficial/material-dashboard-react/issues/16 (please check the following page: https://demos.creative-tim.com/material-dashboard-react/#/rtl/rtl-page)
+- https://github.com/dockserver/ui/issues/145 (this was solved since we've changed react-google-maps with simple Google Maps API)
+- https://github.com/dockserver/ui/issues/140 (this was solved since we've changed react-google-maps with simple Google Maps API)
+- https://github.com/dockserver/ui/issues/138 (can be closed since it was help wanted)
+- https://github.com/dockserver/ui/issues/137 (user did not respond)
+- https://github.com/dockserver/ui/issues/133 (fixed it by using `useLocation` from `react-router-dom`)
+- https://github.com/dockserver/ui/issues/16 (please check the following page: https://demos.creative-tim.com/material-dashboard-react/#/rtl/rtl-page)
 
 ### Major style changes
 
@@ -232,10 +232,10 @@ _You will also have the following message: `found 88 vulnerabilities (1 low, 87 
 
 ### Bug fixing
 
-- https://github.com/creativetimofficial/material-dashboard-react/issues/121
-- https://github.com/creativetimofficial/material-dashboard-react/issues/98
-- https://github.com/creativetimofficial/material-dashboard-react/pull/99
-- https://github.com/creativetimofficial/material-dashboard-react/pull/65
+- https://github.com/dockserver/ui/issues/121
+- https://github.com/dockserver/ui/issues/98
+- https://github.com/dockserver/ui/pull/99
+- https://github.com/dockserver/ui/pull/65
 
 ### Major style changes
 
@@ -329,7 +329,7 @@ typescript                3.5.1   →    3.5.3
 - Changed all string refs to `React.createRef()`
 - Added types validation in each component
 - Solved linting issues
-- Solved https://github.com/creativetimofficial/material-dashboard-react/issues/83
+- Solved https://github.com/dockserver/ui/issues/83
 
 ### Major style changes
 
@@ -367,15 +367,15 @@ ajv                        6.9.1   →   6.10.0
 
 ### Nice stuff
 
-- [Added RTL support](https://github.com/creativetimofficial/material-dashboard-react/issues/16)
+- [Added RTL support](https://github.com/dockserver/ui/issues/16)
 
 ### Bug Fixing
 
-- [Added new script for npm](https://github.com/creativetimofficial/material-dashboard-react/issues/69)
+- [Added new script for npm](https://github.com/dockserver/ui/issues/69)
 - Changed our buggy routing system, now it should work flawlessly, for more info, please refer to our [live docs here](https://demos.creative-tim.com/material-dashboard-react/#/documentation/routing-system)
-- [https://github.com/creativetimofficial/material-dashboard-react/issues/67](https://github.com/creativetimofficial/material-dashboard-react/issues/67)
-- [https://github.com/creativetimofficial/material-dashboard-react/issues/68](https://github.com/creativetimofficial/material-dashboard-react/issues/68)
-- [https://github.com/creativetimofficial/material-dashboard-react/issues/66](https://github.com/creativetimofficial/material-dashboard-react/issues/66)
+- [https://github.com/dockserver/ui/issues/67](https://github.com/dockserver/ui/issues/67)
+- [https://github.com/dockserver/ui/issues/68](https://github.com/dockserver/ui/issues/68)
+- [https://github.com/dockserver/ui/issues/66](https://github.com/dockserver/ui/issues/66)
 
 ### Major style changes
 
@@ -474,7 +474,7 @@ ajv                        6.9.1   →   6.10.0
 ### Bug Fixing
 
 - Github solved issues:
-  - `https://github.com/creativetimofficial/material-dashboard-react/issues/58`
+  - `https://github.com/dockserver/ui/issues/58`
 - Changed the `GridContainer` component
 
 ### Major style changes
@@ -498,13 +498,13 @@ ajv                        6.9.1   →   6.10.0
 - Added resize event listener for window ([see this issue here](https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/40#issuecomment-406983150))
 - Added issues template file
 - Github solved issues:
-  - https://github.com/creativetimofficial/material-dashboard-react/issues/49 (dropped `react-popper` in favour of `@material-ui/core/Popper`)
-  - https://github.com/creativetimofficial/material-dashboard-react/issues/47
-  - https://github.com/creativetimofficial/material-dashboard-react/issues/45
-  - https://github.com/creativetimofficial/material-dashboard-react/issues/38
-  - https://github.com/creativetimofficial/material-dashboard-react/issues/37
+  - https://github.com/dockserver/ui/issues/49 (dropped `react-popper` in favour of `@material-ui/core/Popper`)
+  - https://github.com/dockserver/ui/issues/47
+  - https://github.com/dockserver/ui/issues/45
+  - https://github.com/dockserver/ui/issues/38
+  - https://github.com/dockserver/ui/issues/37
 - Github enhancement issues:
-  - https://github.com/creativetimofficial/material-dashboard-react/issues/47 (read the [./README.md](./README.md) file)
+  - https://github.com/dockserver/ui/issues/47 (read the [./README.md](./README.md) file)
 
 ### Major style changes
 

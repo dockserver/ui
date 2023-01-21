@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Material Dashboard 2 React - v2.1.0
+* Uploader Dashboard 2 - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-dashboard-react
@@ -14,43 +14,41 @@ Coded by www.creative-tim.com
 */
 
 /* eslint-disable no-dupe-keys */
-// Material Dashboard 2 React base styles
+// Uploader Dashboard 2 base styles
 import colors from "assets/theme/base/colors";
 
 const { gradients, dark } = colors;
 
 function configs(labels, datasets) {
-  const backgroundColors = [];
+    const backgroundColors = [];
 
-  if (datasets.backgroundColors) {
-    datasets.backgroundColors.forEach((color) =>
-      gradients[color]
-        ? backgroundColors.push(gradients[color].state)
-        : backgroundColors.push(dark.main)
-    );
-  } else {
-    backgroundColors.push(dark.main);
-  }
+    if (datasets.backgroundColors) {
+        datasets.backgroundColors.forEach((color) =>
+            gradients[color] ?
+            backgroundColors.push(gradients[color].state) :
+            backgroundColors.push(dark.main)
+        );
+    } else {
+        backgroundColors.push(dark.main);
+    }
 
-  return {
-    data: {
-      labels,
-      datasets: [
-        {
-          label: datasets.label,
-          backgroundColor: backgroundColors,
-          data: datasets.data,
+    return {
+        data: {
+            labels,
+            datasets: [{
+                label: datasets.label,
+                backgroundColor: backgroundColors,
+                data: datasets.data,
+            }, ],
         },
-      ],
-    },
-    options: {
-      plugins: {
-        legend: {
-          display: false,
+        options: {
+            plugins: {
+                legend: {
+                    display: false,
+                },
+            },
         },
-      },
-    },
-  };
+    };
 }
 
 export default configs;

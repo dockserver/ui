@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Material Dashboard 2 React - v2.1.0
+* Uploader Dashboard 2 - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-dashboard-react
@@ -22,7 +22,7 @@ Coded by www.creative-tim.com
 import chroma from "chroma-js";
 
 function hexToRgb(color) {
-  return chroma(color).rgb().join(", ");
+    return chroma(color).rgb().join(", ");
 }
 
 export default hexToRgb;

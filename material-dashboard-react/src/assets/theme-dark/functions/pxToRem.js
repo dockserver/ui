@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Material Dashboard 2 React - v2.1.0
+* Uploader Dashboard 2 - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-dashboard-react
@@ -18,7 +18,7 @@ Coded by www.creative-tim.com
  */
 
 function pxToRem(number, baseNumber = 16) {
-  return `${number / baseNumber}rem`;
+    return `${number / baseNumber}rem`;
 }
 
 export default pxToRem;

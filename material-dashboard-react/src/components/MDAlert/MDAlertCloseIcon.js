@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Material Dashboard 2 React - v2.1.0
+* Uploader Dashboard 2 - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-dashboard-react
@@ -14,22 +14,22 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import { styled } from "@mui/material/styles";
+import { styled } from "@mui/joy/styles";
 
 export default styled("span")(({ theme }) => {
-  const { palette, typography, functions } = theme;
+    const { palette, typography, functions } = theme;
 
-  const { white } = palette;
-  const { size, fontWeightMedium } = typography;
-  const { pxToRem } = functions;
+    const { white } = palette;
+    const { size, fontWeightMedium } = typography;
+    const { pxToRem } = functions;
 
-  return {
-    color: white.main,
-    fontSize: size.xl,
-    padding: `${pxToRem(9)} ${pxToRem(6)} ${pxToRem(8)}`,
-    marginLeft: pxToRem(40),
-    fontWeight: fontWeightMedium,
-    cursor: "pointer",
-    lineHeight: 0,
-  };
+    return {
+        color: white.main,
+        fontSize: size.xl,
+        padding: `${pxToRem(9)} ${pxToRem(6)} ${pxToRem(8)}`,
+        marginLeft: pxToRem(40),
+        fontWeight: fontWeightMedium,
+        cursor: "pointer",
+        lineHeight: 0,
+    };
 });

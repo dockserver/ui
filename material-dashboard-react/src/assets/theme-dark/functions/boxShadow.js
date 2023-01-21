@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Material Dashboard 2 React - v2.1.0
+* Uploader Dashboard 2 - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-dashboard-react
@@ -17,15 +17,15 @@ Coded by www.creative-tim.com
   The boxShadow() function helps you to create a box shadow for an element
  */
 
-// Material Dashboard 2 React helper functions
+// Uploader Dashboard 2 helper functions
 import rgba from "assets/theme-dark/functions/rgba";
 import pxToRem from "assets/theme-dark/functions/pxToRem";
 
 function boxShadow(offset = [], radius = [], color, opacity, inset = "") {
-  const [x, y] = offset;
-  const [blur, spread] = radius;
+    const [x, y] = offset;
+    const [blur, spread] = radius;
 
-  return `${inset} ${pxToRem(x)} ${pxToRem(y)} ${pxToRem(blur)} ${pxToRem(spread)} ${rgba(
+    return `${inset} ${pxToRem(x)} ${pxToRem(y)} ${pxToRem(blur)} ${pxToRem(spread)} ${rgba(
     color,
     opacity
   )}`;

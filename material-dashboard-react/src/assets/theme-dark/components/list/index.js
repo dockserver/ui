@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Material Dashboard 2 React - v2.1.0
+* Uploader Dashboard 2 - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-dashboard-react
@@ -14,12 +14,12 @@ Coded by www.creative-tim.com
 */
 
 const list = {
-  styleOverrides: {
-    padding: {
-      paddingTop: 0,
-      paddingBottom: 0,
+    styleOverrides: {
+        padding: {
+            paddingTop: 0,
+            paddingBottom: 0,
+        },
     },
-  },
 };
 
 export default list;
