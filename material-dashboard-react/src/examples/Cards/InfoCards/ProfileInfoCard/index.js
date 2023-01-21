@@ -56,10 +56,10 @@ function ProfileInfoCard({ title, description, info, social, action, shadow }) {
 
     // Render the card info items
     const renderItems = labels.map((label, key) => ( <
-        MDBox key = { label }
+        MDBox key = {label}
         display = "flex"
-        py = { 1 }
-        pr = { 2 } >
+        py = {1}
+        pr = {2} >
         <
         MDTypography variant = "button"
         fontWeight = "bold"
@@ -76,16 +76,16 @@ function ProfileInfoCard({ title, description, info, social, action, shadow }) {
 
     // Render the card social media icons
     const renderSocial = social.map(({ link, icon, color }) => ( <
-        MDBox key = { color }
+        MDBox key = {color}
         component = "a"
-        href = { link }
+        href = {link}
         target = "_blank"
         rel = "noreferrer"
-        fontSize = { size.lg }
-        color = { socialMediaColors[color].main }
-        pr = { 1 }
-        pl = { 0.5 }
-        lineHeight = { 1 } > { icon } <
+        fontSize = {size.lg}
+        color = {socialMediaColors[color].main}
+        pr = {1}
+        pl = {0.5}
+        lineHeight = {1} > { icon } <
         /MDBox>
     ));
 
@@ -97,44 +97,44 @@ function ProfileInfoCard({ title, description, info, social, action, shadow }) {
         MDBox display = "flex"
         justifyContent = "space-between"
         alignItems = "center"
-        pt = { 2 }
-        px = { 2 } >
+        pt = {2}
+        px = {2} >
         <
         MDTypography variant = "h6"
         fontWeight = "medium"
         textTransform = "capitalize" > { title } <
         /MDTypography> <
-        MDTypography component = { Link }
-        to = { action.route }
+        MDTypography component = {Link}
+        to = {action.route}
         variant = "body2"
         color = "secondary" >
         <
-        Tooltip title = { action.tooltip }
+        Tooltip title = {action.tooltip}
         placement = "top" >
         <
         Icon > edit < /Icon> < /
         Tooltip > <
         /MDTypography> < /
         MDBox > <
-        MDBox p = { 2 } >
+        MDBox p = {2} >
         <
-        MDBox mb = { 2 }
-        lineHeight = { 1 } >
+        MDBox mb = {2}
+        lineHeight = {1} >
         <
         MDTypography variant = "button"
         color = "text"
         fontWeight = "light" > { description } <
         /MDTypography> < /
         MDBox > <
-        MDBox opacity = { 0.3 } >
+        MDBox opacity = {0.3} >
         <
         Divider / >
         <
         /MDBox> <
         MDBox > { renderItems } <
         MDBox display = "flex"
-        py = { 1 }
-        pr = { 2 } >
+        py = {1}
+        pr = {2} >
         <
         MDTypography variant = "button"
         fontWeight = "bold"

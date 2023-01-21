@@ -30,11 +30,11 @@ const MDButton = forwardRef(
         const { darkMode } = controller;
 
         return ( <
-            MDButtonRoot {...rest }
-            ref = { ref }
+            MDButtonRoot {...rest}
+            ref = {ref}
             color = "primary"
-            variant = { variant === "gradient" ? "contained" : variant }
-            size = { size }
+            variant = {variant === "gradient" ? "contained" : variant}
+            size = {size}
             ownerState = {
                 { color, variant, size, circular, iconOnly, darkMode }
             } > { children } <

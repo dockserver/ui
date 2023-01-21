@@ -45,24 +45,24 @@ function ReportsLineChart({ color, title, description, date, chart }) {
             useMemo(
                 () => ( <
                     MDBox variant = "gradient"
-                    bgColor = { color }
+                    bgColor = {color}
                     borderRadius = "lg"
-                    coloredShadow = { color }
-                    py = { 2 }
-                    pr = { 0.5 }
-                    mt = {-5 }
+                    coloredShadow = {color}
+                    py = {2}
+                    pr = {0.5}
+                    mt = {-5}
                     height = "12.5rem" >
                     <
-                    Line data = { data }
-                    options = { options }
+                    Line data = {data}
+                    options = {options}
                     /> < /
                     MDBox >
                 ), [chart, color]
             )
         } <
-        MDBox pt = { 3 }
-        pb = { 1 }
-        px = { 1 } >
+        MDBox pt = {3}
+        pb = {1}
+        px = {1} >
         <
         MDTypography variant = "h6"
         textTransform = "capitalize" > { title } <
@@ -79,7 +79,7 @@ function ReportsLineChart({ color, title, description, date, chart }) {
         <
         MDTypography variant = "button"
         color = "text"
-        lineHeight = { 1 }
+        lineHeight = {1}
         sx = {
             { mt: 0.15, mr: 0.5 }
         } >

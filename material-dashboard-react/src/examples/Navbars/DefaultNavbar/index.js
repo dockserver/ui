@@ -78,22 +78,22 @@ function DefaultNavbar({ transparent, light, action }) {
     return ( <
         Container >
         <
-        MDBox py = { 1 }
+        MDBox py = {1}
         px = {
             { xs: 4, sm: transparent ? 2 : 3, lg: transparent ? 0 : 2 }
         }
-        my = { 3 }
-        mx = { 3 }
+        my = {3}
+        mx = {3}
         width = "calc(100% - 48px)"
         borderRadius = "lg"
-        shadow = { transparent ? "none" : "md" }
-        color = { light ? "white" : "dark" }
+        shadow = {transparent ? "none" : "md"}
+        color = {light ? "white" : "dark"}
         display = "flex"
         justifyContent = "space-between"
         alignItems = "center"
         position = "absolute"
-        left = { 0 }
-        zIndex = { 3 }
+        left = {0}
+        zIndex = {3}
         sx = {
             ({
                 palette: { transparent: transparentColor, white, background },
@@ -105,17 +105,17 @@ function DefaultNavbar({ transparent, light, action }) {
             })
         } >
         <
-        MDBox component = { Link }
+        MDBox component = {Link}
         to = "/"
-        py = { transparent ? 1.5 : 0.75 }
-        lineHeight = { 1 }
+        py = {transparent ? 1.5 : 0.75}
+        lineHeight = {1}
         pl = {
             { xs: 0, lg: 1 }
         } >
         <
         MDTypography variant = "button"
         fontWeight = "bold"
-        color = { light ? "white" : "dark" } >
+        color = {light ? "white" : "dark"} >
         Uploader Dashboard 2 <
         /MDTypography> < /
         MDBox > <
@@ -123,28 +123,28 @@ function DefaultNavbar({ transparent, light, action }) {
         display = {
             { xs: "none", lg: "flex" }
         }
-        m = { 0 }
-        p = { 0 } >
+        m = {0}
+        p = {0} >
         <
         DefaultNavbarLink icon = "donut_large"
         name = "dashboard"
         route = "/"
-        light = { light }
+        light = {light}
         /> <
         DefaultNavbarLink icon = "person"
         name = "profile"
         route = "/profile"
-        light = { light }
+        light = {light}
         /> <
         DefaultNavbarLink icon = "account_circle"
         name = "inprogress"
         route = "/inprogress"
-        light = { light }
+        light = {light}
         /> <
         DefaultNavbarLink icon = "person"
         name = "complete"
         route = "/completed"
-        light = { light }
+        light = {light}
         /> < /
         MDBox > {
             action &&
@@ -153,10 +153,10 @@ function DefaultNavbar({ transparent, light, action }) {
                     { xs: "none", lg: "inline-block" }
                 } >
                 <
-                MDButton component = { Link }
-                to = { action.route }
+                MDButton component = {Link}
+                to = {action.route}
                 variant = "gradient"
-                color = { action.color ? action.color : "info" }
+                color = {action.color ? action.color : "info"}
                 size = "small" > { action.label } <
                 /MDButton> < /
                 MDBox >
@@ -166,11 +166,11 @@ function DefaultNavbar({ transparent, light, action }) {
                 } >
                 <
                 MDButton component = "a"
-                href = { action.route }
+                href = {action.route}
                 target = "_blank"
                 rel = "noreferrer"
                 variant = "gradient"
-                color = { action.color ? action.color : "info" }
+                color = {action.color ? action.color : "info"}
                 size = "small"
                 sx = {
                     { mt: -0.3 }
@@ -182,20 +182,20 @@ function DefaultNavbar({ transparent, light, action }) {
         MDBox display = {
             { xs: "inline-block", lg: "none" }
         }
-        lineHeight = { 0 }
-        py = { 1.5 }
-        pl = { 1.5 }
+        lineHeight = {0}
+        py = {1.5}
+        pl = {1.5}
         color = "inherit"
         sx = {
             { cursor: "pointer" }
         }
-        onClick = { openMobileNavbar } >
+        onClick = {openMobileNavbar} >
         <
         Icon fontSize = "default" > { mobileNavbar ? "close" : "menu" } < /Icon> < /
         MDBox > <
         /MDBox> {
-        mobileView && < DefaultNavbarMobile open = { mobileNavbar }
-        close = { closeMobileNavbar }
+        mobileView && < DefaultNavbarMobile open = {mobileNavbar}
+        close = {closeMobileNavbar}
         />} < /
         Container >
     );

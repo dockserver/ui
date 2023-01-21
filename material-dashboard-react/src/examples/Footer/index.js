@@ -33,12 +33,12 @@ function Footer({ company, links }) {
 
     const renderLinks = () =>
         links.map((link) => ( <
-            MDBox key = { link.name }
+            MDBox key = {link.name}
             component = "li"
-            px = { 2 }
-            lineHeight = { 1 } >
+            px = {2}
+            lineHeight = {1} >
             <
-            Link href = { link.href }
+            Link href = {link.href}
             target = "_blank" >
             <
             MDTypography variant = "button"
@@ -57,21 +57,21 @@ function Footer({ company, links }) {
         }
         justifyContent = "space-between"
         alignItems = "center"
-        px = { 1.5 } >
+        px = {1.5} >
         <
         MDBox display = "flex"
         justifyContent = "center"
         alignItems = "center"
         flexWrap = "wrap"
         color = "text"
-        fontSize = { size.sm }
-        px = { 1.5 } >
+        fontSize = {size.sm}
+        px = {1.5} >
         &
         copy; { new Date().getFullYear() }, made with <
-        MDBox fontSize = { size.md }
+        MDBox fontSize = {size.md}
         color = "text"
-        mb = {-0.5 }
-        mx = { 0.25 } >
+        mb = {-0.5}
+        mx = {0.25} >
         <
         Icon color = "inherit"
         fontSize = "inherit" >
@@ -79,7 +79,7 @@ function Footer({ company, links }) {
         /Icon> < /
         MDBox >
         by <
-        Link href = { href }
+        Link href = {href}
         target = "_blank" >
         <
         MDTypography variant = "button"

@@ -35,12 +35,12 @@ const MDPagination = forwardRef(
         const value = useMemo(() => ({ variant, color, size }), [variant, color, size]);
 
         return ( <
-            Context.Provider value = { value } > {
+            Context.Provider value = {value} > {
                 item ? ( <
-                    MDPaginationItemRoot {...rest }
-                    ref = { ref }
-                    variant = { active ? context.variant : "outlined" }
-                    color = { active ? context.color : "secondary" }
+                    MDPaginationItemRoot {...rest}
+                    ref = {ref}
+                    variant = {active ? context.variant : "outlined"}
+                    color = {active ? context.color : "secondary"}
                     iconOnly circular ownerState = {
                         { variant, active, paginationSize }
                     } > { children } <

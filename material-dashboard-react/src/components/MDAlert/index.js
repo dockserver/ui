@@ -35,19 +35,19 @@ function MDAlert({ color, dismissible, children, ...rest }) {
 
     // The base template for the alert
     const alertTemplate = (mount = true) => ( <
-            Fade in = { mount }
-            timeout = { 300 } >
+            Fade in = {mount}
+            timeout = {300} >
             <
             MDAlertRoot ownerState = {
                 { color }
-            } {...rest } >
+            } {...rest} >
             <
             MDBox display = "flex"
             alignItems = "center"
             color = "white" > { children } <
             /MDBox> {
             dismissible ? ( <
-                MDAlertCloseIcon onClick = { mount ? handleAlertStatus : null } > & times; < /MDAlertCloseIcon>
+                MDAlertCloseIcon onClick = {mount ? handleAlertStatus : null} > & times; < /MDAlertCloseIcon>
             ) : null
         } <
         /MDAlertRoot> < /

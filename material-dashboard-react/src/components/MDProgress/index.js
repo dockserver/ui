@@ -35,10 +35,10 @@ const MDProgress = forwardRef(({ variant, color, value, label, ...rest }, ref) =
             /MDTypography>
         )
     } <
-    MDProgressRoot {...rest }
-    ref = { ref }
+    MDProgressRoot {...rest}
+    ref = {ref}
     variant = "determinate"
-    value = { value }
+    value = {value}
     ownerState = {
         { color, value, variant }
     }

@@ -43,20 +43,20 @@ function Upload() {
         <
         DashboardNavbar / >
         <
-        MDBox py = { 3 } >
+        MDBox py = {3} >
         <
-        Grid container spacing = { 3 } >
+        Grid container spacing = {3} >
         <
-        Grid item xs = { 12 }
-        md = { 6 }
-        lg = { 3 } >
+        Grid item xs = {12}
+        md = {6}
+        lg = {3} >
         <
-        MDBox mb = { 1.5 } >
+        MDBox mb = {1.5} >
         <
         ComplexStatisticsCard color = "dark"
         icon = "weekend"
         title = "Bookings"
-        count = { 281 }
+        count = {281}
         percentage = {
             {
                 color: "success",
@@ -67,11 +67,11 @@ function Upload() {
         /> < /
         MDBox > <
         /Grid> <
-        Grid item xs = { 12 }
-        md = { 6 }
-        lg = { 3 } >
+        Grid item xs = {12}
+        md = {6}
+        lg = {3} >
         <
-        MDBox mb = { 1.5 } >
+        MDBox mb = {1.5} >
         <
         ComplexStatisticsCard icon = "leaderboard"
         title = "Today's Users"
@@ -86,11 +86,11 @@ function Upload() {
         /> < /
         MDBox > <
         /Grid> <
-        Grid item xs = { 12 }
-        md = { 6 }
-        lg = { 3 } >
+        Grid item xs = {12}
+        md = {6}
+        lg = {3} >
         <
-        MDBox mb = { 1.5 } >
+        MDBox mb = {1.5} >
         <
         ComplexStatisticsCard color = "success"
         icon = "store"
@@ -106,11 +106,11 @@ function Upload() {
         /> < /
         MDBox > <
         /Grid> <
-        Grid item xs = { 12 }
-        md = { 6 }
-        lg = { 3 } >
+        Grid item xs = {12}
+        md = {6}
+        lg = {3} >
         <
-        MDBox mb = { 1.5 } >
+        MDBox mb = {1.5} >
         <
         ComplexStatisticsCard color = "primary"
         icon = "person_add"
@@ -127,53 +127,53 @@ function Upload() {
         MDBox > <
         /Grid> < /
         Grid > <
-        MDBox mt = { 4.5 } >
+        MDBox mt = {4.5} >
         <
-        Grid container spacing = { 3 } >
+        Grid container spacing = {3} >
         <
-        Grid item xs = { 12 }
-        md = { 6 }
-        lg = { 4 } >
+        Grid item xs = {12}
+        md = {6}
+        lg = {4} >
         <
-        MDBox mb = { 3 } >
+        MDBox mb = {3} >
         <
         ReportsBarChart color = "info"
         title = "website views"
         description = "Last Campaign Performance"
         date = "campaign sent 2 days ago"
-        chart = { reportsBarChartData }
+        chart = {reportsBarChartData}
         /> < /
         MDBox > <
         /Grid> <
-        Grid item xs = { 12 }
-        md = { 6 }
-        lg = { 4 } >
+        Grid item xs = {12}
+        md = {6}
+        lg = {4} >
         <
-        MDBox mb = { 3 } >
+        MDBox mb = {3} >
         <
         ReportsLineChart color = "success"
         title = "daily sales"
-        description = { <
+        description = {<
             >
             ( < strong > +15 % < /strong>) increase in today sales. < / >
             }
             date = "updated 4 min ago"
-            chart = { sales }
+            chart = {sales}
             /> < /
             MDBox > <
             /Grid> <
-            Grid item xs = { 12 }
-            md = { 6 }
-            lg = { 4 } >
+            Grid item xs = {12}
+            md = {6}
+            lg = {4} >
             <
-            MDBox mb = { 3 } >
+            MDBox mb = {3} >
             <
             ReportsLineChart
             color = "dark"
             title = "completed tasks"
             description = "Last Campaign Performance"
             date = "just updated"
-            chart = { tasks }
+            chart = {tasks}
             /> < /
             MDBox > <
             /Grid> < /
@@ -181,18 +181,18 @@ function Upload() {
             /MDBox> <
             MDBox >
             <
-            Grid container spacing = { 3 } >
+            Grid container spacing = {3} >
             <
-            Grid item xs = { 12 }
-            md = { 6 }
-            lg = { 8 } >
+            Grid item xs = {12}
+            md = {6}
+            lg = {8} >
             <
             Projects / >
             <
             /Grid> <
-            Grid item xs = { 12 }
-            md = { 6 }
-            lg = { 4 } >
+            Grid item xs = {12}
+            md = {6}
+            lg = {4} >
             <
             OrdersOverview / >
             <

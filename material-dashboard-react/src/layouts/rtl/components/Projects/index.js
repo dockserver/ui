@@ -38,7 +38,7 @@ function Projects() {
 
     const renderMenu = ( <
         Menu id = "simple-menu"
-        anchorEl = { menu }
+        anchorEl = {menu}
         anchorOrigin = {
             {
                 vertical: "top",
@@ -51,12 +51,12 @@ function Projects() {
                 horizontal: "right",
             }
         }
-        open = { Boolean(menu) }
-        onClose = { closeMenu } >
+        open = {Boolean(menu)}
+        onClose = {closeMenu} >
         <
-        MenuItem onClick = { closeMenu } > عمل < /MenuItem> <
-        MenuItem onClick = { closeMenu } > عمل آخر < /MenuItem> <
-        MenuItem onClick = { closeMenu } > شيء آخر هنا < /MenuItem> < /
+        MenuItem onClick = {closeMenu} > عمل < /MenuItem> <
+        MenuItem onClick = {closeMenu} > عمل آخر < /MenuItem> <
+        MenuItem onClick = {closeMenu} > شيء آخر هنا < /MenuItem> < /
         Menu >
     );
 
@@ -66,7 +66,7 @@ function Projects() {
         MDBox display = "flex"
         justifyContent = "space-between"
         alignItems = "center"
-        p = { 3 } >
+        p = {3} >
         <
         MDBox >
         <
@@ -76,7 +76,7 @@ function Projects() {
         /MDTypography> <
         MDBox display = "flex"
         alignItems = "center"
-        lineHeight = { 0 } >
+        lineHeight = {0} >
         <
         Icon sx = {
             {
@@ -96,13 +96,13 @@ function Projects() {
         /MDBox> < /
         MDBox > <
         MDBox color = "text"
-        px = { 2 } >
+        px = {2} >
         <
         Icon sx = {
             { cursor: "pointer", fontWeight: "bold" }
         }
         fontSize = "small"
-        onClick = { openMenu } >
+        onClick = {openMenu} >
         more_vert <
         /Icon> < /
         MDBox > { renderMenu } <
@@ -112,9 +112,9 @@ function Projects() {
         DataTable table = {
             { columns, rows }
         }
-        showTotalEntries = { false }
-        isSorted = { false }
-        noEndBorder entriesPerPage = { false }
+        showTotalEntries = {false}
+        isSorted = {false}
+        noEndBorder entriesPerPage = {false}
         /> < /
         MDBox > <
         /Card>

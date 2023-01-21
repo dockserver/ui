@@ -49,34 +49,34 @@ function RadarChart({ icon, title, description, chart }) {
     const { data, options } = configs(chart.labels || [], chartDatasets);
 
     const renderChart = ( <
-        MDBox py = { 2 }
-        pr = { 2 }
-        pl = { icon.component ? 1 : 2 } > {
+        MDBox py = {2}
+        pr = {2}
+        pl = {icon.component ? 1 : 2} > {
             title || description ? ( <
                 MDBox display = "flex"
-                px = { description ? 1 : 0 }
-                pt = { description ? 1 : 0 } > {
+                px = {description ? 1 : 0}
+                pt = {description ? 1 : 0} > {
                     icon.component && ( <
                         MDBox width = "4rem"
                         height = "4rem"
-                        bgColor = { icon.color || "info" }
+                        bgColor = {icon.color || "info"}
                         variant = "gradient"
-                        coloredShadow = { icon.color || "info" }
+                        coloredShadow = {icon.color || "info"}
                         borderRadius = "xl"
                         display = "flex"
                         justifyContent = "center"
                         alignItems = "center"
                         color = "white"
-                        mt = {-5 }
-                        mr = { 2 } >
+                        mt = {-5}
+                        mr = {2} >
                         <
                         Icon fontSize = "medium" > { icon.component } < /Icon> < /
                         MDBox >
                     )
                 } <
-                MDBox mt = { icon.component ? -2 : 0 } > {
+                MDBox mt = {icon.component ? -2 : 0} > {
                     title && < MDTypography variant = "h6" > { title } < /MDTypography>} <
-                    MDBox mb = { 2 } >
+                    MDBox mb = {2} >
                     <
                     MDTypography component = "div"
                     variant = "button"
@@ -89,10 +89,10 @@ function RadarChart({ icon, title, description, chart }) {
             } {
                 useMemo(
                     () => ( <
-                        MDBox p = { 6 } >
+                        MDBox p = {6} >
                         <
-                        Radar data = { data }
-                        options = { options }
+                        Radar data = {data}
+                        options = {options}
                         /> < /
                         MDBox >
                     ), [chart]

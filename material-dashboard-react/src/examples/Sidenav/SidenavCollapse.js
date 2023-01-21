@@ -43,7 +43,7 @@ function SidenavCollapse({ icon, name, active, ...rest }) {
     return ( <
         ListItem component = "li" >
         <
-        MDBox {...rest }
+        MDBox {...rest}
         sx = {
             (theme) =>
             collapseItem(theme, {
@@ -70,7 +70,7 @@ function SidenavCollapse({ icon, name, active, ...rest }) {
         /ListItemIcon>
 
         <
-        ListItemText primary = { name }
+        ListItemText primary = {name}
         sx = {
             (theme) =>
             collapseText(theme, {

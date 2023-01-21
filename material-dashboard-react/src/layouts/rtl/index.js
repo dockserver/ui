@@ -56,20 +56,20 @@ function RTL() {
         <
         DashboardNavbar / >
         <
-        MDBox py = { 3 } >
+        MDBox py = {3} >
         <
-        Grid container spacing = { 3 } >
+        Grid container spacing = {3} >
         <
-        Grid item xs = { 12 }
-        md = { 6 }
-        lg = { 3 } >
+        Grid item xs = {12}
+        md = {6}
+        lg = {3} >
         <
-        MDBox mb = { 1.5 } >
+        MDBox mb = {1.5} >
         <
         ComplexStatisticsCard color = "dark"
         icon = "weekend"
         title = "أموال اليوم"
-        count = { 281 }
+        count = {281}
         percentage = {
             {
                 color: "success",
@@ -80,11 +80,11 @@ function RTL() {
         /> < /
         MDBox > <
         /Grid> <
-        Grid item xs = { 12 }
-        md = { 6 }
-        lg = { 3 } >
+        Grid item xs = {12}
+        md = {6}
+        lg = {3} >
         <
-        MDBox mb = { 1.5 } >
+        MDBox mb = {1.5} >
         <
         ComplexStatisticsCard icon = "leaderboard"
         title = "مستخدمو اليوم"
@@ -99,11 +99,11 @@ function RTL() {
         /> < /
         MDBox > <
         /Grid> <
-        Grid item xs = { 12 }
-        md = { 6 }
-        lg = { 3 } >
+        Grid item xs = {12}
+        md = {6}
+        lg = {3} >
         <
-        MDBox mb = { 1.5 } >
+        MDBox mb = {1.5} >
         <
         ComplexStatisticsCard color = "success"
         icon = "store"
@@ -119,11 +119,11 @@ function RTL() {
         /> < /
         MDBox > <
         /Grid> <
-        Grid item xs = { 12 }
-        md = { 6 }
-        lg = { 3 } >
+        Grid item xs = {12}
+        md = {6}
+        lg = {3} >
         <
-        MDBox mb = { 1.5 } >
+        MDBox mb = {1.5} >
         <
         ComplexStatisticsCard color = "primary"
         icon = "person_add"
@@ -140,53 +140,53 @@ function RTL() {
         MDBox > <
         /Grid> < /
         Grid > <
-        MDBox mt = { 4.5 } >
+        MDBox mt = {4.5} >
         <
-        Grid container spacing = { 3 } >
+        Grid container spacing = {3} >
         <
-        Grid item xs = { 12 }
-        md = { 6 }
-        lg = { 4 } >
+        Grid item xs = {12}
+        md = {6}
+        lg = {4} >
         <
-        MDBox mb = { 3 } >
+        MDBox mb = {3} >
         <
         ReportsBarChart color = "info"
         title = "مشاهدات الموقع"
         description = "آخر أداء للحملة"
         date = "الحملة أرسلت قبل يومين"
-        chart = { reportsBarChartData }
+        chart = {reportsBarChartData}
         /> < /
         MDBox > <
         /Grid> <
-        Grid item xs = { 12 }
-        md = { 6 }
-        lg = { 4 } >
+        Grid item xs = {12}
+        md = {6}
+        lg = {4} >
         <
-        MDBox mb = { 3 } >
+        MDBox mb = {3} >
         <
         ReportsLineChart color = "success"
         title = "المبيعات اليومية"
-        description = { <
+        description = {<
             >
             ( < strong > +15 % < /strong>) زيادة في مبيعات اليوم.. < / >
             }
             date = "تم التحديث منذ 4 دقائق"
-            chart = { sales }
+            chart = {sales}
             /> < /
             MDBox > <
             /Grid> <
-            Grid item xs = { 12 }
-            md = { 6 }
-            lg = { 4 } >
+            Grid item xs = {12}
+            md = {6}
+            lg = {4} >
             <
-            MDBox mb = { 3 } >
+            MDBox mb = {3} >
             <
             ReportsLineChart
             color = "dark"
             title = "المهام المكتملة"
             description = "آخر أداء للحملة"
             date = "تم تحديثه للتو"
-            chart = { tasks }
+            chart = {tasks}
             /> < /
             MDBox > <
             /Grid> < /
@@ -194,18 +194,18 @@ function RTL() {
             /MDBox> <
             MDBox >
             <
-            Grid container spacing = { 3 } >
+            Grid container spacing = {3} >
             <
-            Grid item xs = { 12 }
-            md = { 6 }
-            lg = { 8 } >
+            Grid item xs = {12}
+            md = {6}
+            lg = {8} >
             <
             Projects / >
             <
             /Grid> <
-            Grid item xs = { 12 }
-            md = { 6 }
-            lg = { 4 } >
+            Grid item xs = {12}
+            md = {6}
+            lg = {4} >
             <
             OrdersOverview / >
             <

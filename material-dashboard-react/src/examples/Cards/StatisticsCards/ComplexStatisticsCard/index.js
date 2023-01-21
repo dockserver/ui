@@ -31,27 +31,27 @@ function ComplexStatisticsCard({ color, title, count, percentage, icon }) {
         <
         MDBox display = "flex"
         justifyContent = "space-between"
-        pt = { 1 }
-        px = { 2 } >
+        pt = {1}
+        px = {2} >
         <
         MDBox variant = "gradient"
-        bgColor = { color }
-        color = { color === "light" ? "dark" : "white" }
-        coloredShadow = { color }
+        bgColor = {color}
+        color = {color === "light" ? "dark" : "white"}
+        coloredShadow = {color}
         borderRadius = "xl"
         display = "flex"
         justifyContent = "center"
         alignItems = "center"
         width = "4rem"
         height = "4rem"
-        mt = {-3 } >
+        mt = {-3} >
         <
         Icon fontSize = "medium"
         color = "inherit" > { icon } <
         /Icon> < /
         MDBox > <
         MDBox textAlign = "right"
-        lineHeight = { 1.25 } >
+        lineHeight = {1.25} >
         <
         MDTypography variant = "button"
         fontWeight = "light"
@@ -62,8 +62,8 @@ function ComplexStatisticsCard({ color, title, count, percentage, icon }) {
         /MDBox> <
         Divider / >
         <
-        MDBox pb = { 2 }
-        px = { 2 } >
+        MDBox pb = {2}
+        px = {2} >
         <
         MDTypography component = "p"
         variant = "button"
@@ -73,7 +73,7 @@ function ComplexStatisticsCard({ color, title, count, percentage, icon }) {
         MDTypography component = "span"
         variant = "button"
         fontWeight = "bold"
-        color = { percentage.color } > { percentage.amount } <
+        color = {percentage.color} > { percentage.amount } <
         /MDTypography> &
         nbsp; { percentage.label } <
         /MDTypography> < /

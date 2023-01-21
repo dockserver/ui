@@ -32,12 +32,12 @@ import MDAvatar from "components/MDAvatar";
 
 function DefaultProjectCard({ image, label, title, description, action, authors }) {
     const renderAuthors = authors.map(({ image: media, name }) => ( <
-        Tooltip key = { name }
-        title = { name }
+        Tooltip key = {name}
+        title = {name}
         placement = "bottom" >
         <
-        MDAvatar src = { media }
-        alt = { name }
+        MDAvatar src = {media}
+        alt = {name}
         size = "xs"
         sx = {
             ({ borders: { borderWidth }, palette: { white } }) => ({
@@ -71,9 +71,9 @@ function DefaultProjectCard({ image, label, title, description, action, authors 
         shadow = "xl"
         borderRadius = "xl" >
         <
-        CardMedia src = { image }
+        CardMedia src = {image}
         component = "img"
-        title = { title }
+        title = {title}
         sx = {
             {
                 maxWidth: "100%",
@@ -85,24 +85,24 @@ function DefaultProjectCard({ image, label, title, description, action, authors 
         }
         /> < /
         MDBox > <
-        MDBox mt = { 1 }
-        mx = { 0.5 } >
+        MDBox mt = {1}
+        mx = {0.5} >
         <
         MDTypography variant = "button"
         fontWeight = "regular"
         color = "text"
         textTransform = "capitalize" > { label } <
         /MDTypography> <
-        MDBox mb = { 1 } > {
+        MDBox mb = {1} > {
             action.type === "internal" ? ( <
-                MDTypography component = { Link }
-                to = { action.route }
+                MDTypography component = {Link}
+                to = {action.route}
                 variant = "h5"
                 textTransform = "capitalize" > { title } <
                 /MDTypography>
             ) : ( <
                 MDTypography component = "a"
-                href = { action.route }
+                href = {action.route}
                 target = "_blank"
                 rel = "noreferrer"
                 variant = "h5"
@@ -111,8 +111,8 @@ function DefaultProjectCard({ image, label, title, description, action, authors 
             )
         } <
         /MDBox> <
-        MDBox mb = { 3 }
-        lineHeight = { 0 } >
+        MDBox mb = {3}
+        lineHeight = {0} >
         <
         MDTypography variant = "button"
         fontWeight = "light"
@@ -123,20 +123,20 @@ function DefaultProjectCard({ image, label, title, description, action, authors 
         justifyContent = "space-between"
         alignItems = "center" > {
             action.type === "internal" ? ( <
-                MDButton component = { Link }
-                to = { action.route }
+                MDButton component = {Link}
+                to = {action.route}
                 variant = "outlined"
                 size = "small"
-                color = { action.color } > { action.label } <
+                color = {action.color} > { action.label } <
                 /MDButton>
             ) : ( <
                 MDButton component = "a"
-                href = { action.route }
+                href = {action.route}
                 target = "_blank"
                 rel = "noreferrer"
                 variant = "outlined"
                 size = "small"
-                color = { action.color } > { action.label } <
+                color = {action.color} > { action.label } <
                 /MDButton>
             )
         } <

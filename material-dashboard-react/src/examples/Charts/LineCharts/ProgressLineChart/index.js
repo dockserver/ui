@@ -41,8 +41,8 @@ function ProgressLineChart({ color, icon, title, count, progress, height, chart 
             <
             MDBox display = "flex"
             alignItems = "center"
-            pt = { 2 }
-            px = { 2 } >
+            pt = {2}
+            px = {2} >
             <
             MDBox width = "3rem"
             height = "3rem"
@@ -52,13 +52,13 @@ function ProgressLineChart({ color, icon, title, count, progress, height, chart 
             borderRadius = "md"
             shadow = "md"
             color = "white"
-            bgColor = { color }
+            bgColor = {color}
             variant = "gradient" >
             <
             Icon fontSize = "default" > { icon } < /Icon> < /
             MDBox > <
-            MDBox ml = { 2 }
-            lineHeight = { 1 } >
+            MDBox ml = {2}
+            lineHeight = {1} >
             <
             MDTypography variant = "button"
             fontWeight = "regular"
@@ -81,21 +81,21 @@ function ProgressLineChart({ color, icon, title, count, progress, height, chart 
     color = "text" > { progress } %
         <
         /MDTypography> <
-    MDBox mt = { 0.25 } >
+    MDBox mt = {0.25} >
         <
         MDProgress variant = "gradient"
-    color = { color }
-    value = { progress }
+    color = {color}
+    value = {progress}
     /> < /
     MDBox > <
         /MDBox> < /
     MDBox > {
             useMemo(
                 () => ( <
-                    MDBox mt = { 2 } >
+                    MDBox mt = {2} >
                     <
-                    Line data = { data }
-                    options = { options }
+                    Line data = {data}
+                    options = {options}
                     style = {
                         { height }
                     }

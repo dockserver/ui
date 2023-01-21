@@ -29,7 +29,7 @@ function DefaultNavbarMobile({ open, close }) {
     const { width } = open && open.getBoundingClientRect();
 
     return ( <
-        Menu getContentAnchorEl = { null }
+        Menu getContentAnchorEl = {null}
         anchorOrigin = {
             {
                 vertical: "bottom",
@@ -42,14 +42,14 @@ function DefaultNavbarMobile({ open, close }) {
                 horizontal: "center",
             }
         }
-        anchorEl = { open }
-        open = { Boolean(open) }
-        onClose = { close }
+        anchorEl = {open}
+        open = {Boolean(open)}
+        onClose = {close}
         MenuListProps = {
             { style: { width: `calc(${width}px - 4rem)` } }
         } >
         <
-        MDBox px = { 0.5 } >
+        MDBox px = {0.5} >
         <
         DefaultNavbarLink icon = "donut_large"
         name = "dashboard"

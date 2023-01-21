@@ -98,7 +98,7 @@ function MaterialUIControllerProvider({ children }) {
 
     const value = useMemo(() => [controller, dispatch], [controller, dispatch]);
 
-    return <MaterialUI.Provider value = { value } > { children } < /MaterialUI.Provider>;
+    return <MaterialUI.Provider value = {value} > { children } < /MaterialUI.Provider>;
 }
 
 // Uploader Dashboard 2 custom hook for using context

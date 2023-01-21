@@ -22,10 +22,10 @@ import PropTypes from "prop-types";
 import MDAvatarRoot from "components/MDAvatar/MDAvatarRoot";
 
 const MDAvatar = forwardRef(({ bgColor, size, shadow, ...rest }, ref) => ( <
-    MDAvatarRoot ref = { ref }
+    MDAvatarRoot ref = {ref}
     ownerState = {
         { shadow, bgColor, size }
-    } {...rest }
+    } {...rest}
     />
 ));
 

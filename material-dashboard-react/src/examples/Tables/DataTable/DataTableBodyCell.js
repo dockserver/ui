@@ -22,9 +22,9 @@ import MDBox from "components/MDBox";
 function DataTableBodyCell({ noBorder, align, children }) {
     return ( <
         MDBox component = "td"
-        textAlign = { align }
-        py = { 1.5 }
-        px = { 3 }
+        textAlign = {align}
+        py = {1.5}
+        px = {3}
         sx = {
             ({ palette: { light }, typography: { size }, borders: { borderWidth } }) => ({
                 fontSize: size.sm,

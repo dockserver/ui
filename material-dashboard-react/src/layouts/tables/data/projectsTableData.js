@@ -36,18 +36,18 @@ export default function data() {
     const Project = ({ image, name }) => ( <
         MDBox display = "flex"
         alignItems = "center"
-        lineHeight = { 1 } >
+        lineHeight = {1} >
         <
-        MDAvatar src = { image }
-        name = { name }
+        MDAvatar src = {image}
+        name = {name}
         size = "sm"
         variant = "rounded" / >
         <
         MDTypography display = "block"
         variant = "button"
         fontWeight = "medium"
-        ml = { 1 }
-        lineHeight = { 1 } > { name } <
+        ml = {1}
+        lineHeight = {1} > { name } <
         /MDTypography> < /
         MDBox >
     );
@@ -61,12 +61,12 @@ export default function data() {
         fontWeight = "medium" > { value } %
         <
         /MDTypography> <
-        MDBox ml = { 0.5 }
+        MDBox ml = {0.5}
         width = "9rem" >
         <
         MDProgress variant = "gradient"
-        color = { color }
-        value = { value }
+        color = {color}
+        value = {value}
         /> < /
         MDBox > <
         /MDBox>
@@ -82,7 +82,7 @@ export default function data() {
         ],
 
         rows: [{
-                project: < Project image = { LogoAsana }
+                project: < Project image = {LogoAsana}
                 name = "Asana" / > ,
                 budget: ( <
                     MDTypography component = "a"
@@ -103,7 +103,7 @@ export default function data() {
                     /MDTypography>
                 ),
                 completion: < Progress color = "info"
-                value = { 60 }
+                value = {60}
                 />,
                 action: ( <
                     MDTypography component = "a"
@@ -115,7 +115,7 @@ export default function data() {
                 ),
             },
             {
-                project: < Project image = { logoGithub }
+                project: < Project image = {logoGithub}
                 name = "Github" / > ,
                 budget: ( <
                     MDTypography component = "a"
@@ -136,7 +136,7 @@ export default function data() {
                     /MDTypography>
                 ),
                 completion: < Progress color = "success"
-                value = { 100 }
+                value = {100}
                 />,
                 action: ( <
                     MDTypography component = "a"
@@ -148,7 +148,7 @@ export default function data() {
                 ),
             },
             {
-                project: < Project image = { logoAtlassian }
+                project: < Project image = {logoAtlassian}
                 name = "Atlassian" / > ,
                 budget: ( <
                     MDTypography component = "a"
@@ -169,7 +169,7 @@ export default function data() {
                     /MDTypography>
                 ),
                 completion: < Progress color = "error"
-                value = { 30 }
+                value = {30}
                 />,
                 action: ( <
                     MDTypography component = "a"
@@ -181,7 +181,7 @@ export default function data() {
                 ),
             },
             {
-                project: < Project image = { logoSpotify }
+                project: < Project image = {logoSpotify}
                 name = "Spotify" / > ,
                 budget: ( <
                     MDTypography component = "a"
@@ -202,7 +202,7 @@ export default function data() {
                     /MDTypography>
                 ),
                 completion: < Progress color = "info"
-                value = { 80 }
+                value = {80}
                 />,
                 action: ( <
                     MDTypography component = "a"
@@ -214,7 +214,7 @@ export default function data() {
                 ),
             },
             {
-                project: < Project image = { logoSlack }
+                project: < Project image = {logoSlack}
                 name = "Slack" / > ,
                 budget: ( <
                     MDTypography component = "a"
@@ -235,7 +235,7 @@ export default function data() {
                     /MDTypography>
                 ),
                 completion: < Progress color = "error"
-                value = { 0 }
+                value = {0}
                 />,
                 action: ( <
                     MDTypography component = "a"
@@ -247,7 +247,7 @@ export default function data() {
                 ),
             },
             {
-                project: < Project image = { logoInvesion }
+                project: < Project image = {logoInvesion}
                 name = "Invesion" / > ,
                 budget: ( <
                     MDTypography component = "a"
@@ -268,7 +268,7 @@ export default function data() {
                     /MDTypography>
                 ),
                 completion: < Progress color = "success"
-                value = { 100 }
+                value = {100}
                 />,
                 action: ( <
                     MDTypography component = "a"

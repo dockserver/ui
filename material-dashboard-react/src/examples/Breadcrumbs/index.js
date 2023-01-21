@@ -47,8 +47,8 @@ function Breadcrumbs({ icon, title, route, light }) {
             <
             MDTypography component = "span"
             variant = "body2"
-            color = { light ? "white" : "dark" }
-            opacity = { light ? 0.8 : 0.5 }
+            color = {light ? "white" : "dark"}
+            opacity = {light ? 0.8 : 0.5}
             sx = {
                 { lineHeight: 0 }
             } >
@@ -57,15 +57,15 @@ function Breadcrumbs({ icon, title, route, light }) {
             MDTypography > <
             /Link> {
             routes.map((el) => ( <
-                Link to = { `/${el}` }
-                key = { el } >
+                Link to = {`/${el}`}
+                key = {el} >
                 <
                 MDTypography component = "span"
                 variant = "button"
                 fontWeight = "regular"
                 textTransform = "capitalize"
-                color = { light ? "white" : "dark" }
-                opacity = { light ? 0.8 : 0.5 }
+                color = {light ? "white" : "dark"}
+                opacity = {light ? 0.8 : 0.5}
                 sx = {
                     { lineHeight: 0 }
                 } > { el } <
@@ -76,7 +76,7 @@ function Breadcrumbs({ icon, title, route, light }) {
         MDTypography variant = "button"
     fontWeight = "regular"
     textTransform = "capitalize"
-    color = { light ? "white" : "dark" }
+    color = {light ? "white" : "dark"}
     sx = {
             { lineHeight: 0 }
         } > { title.replace("-", " ") } <
@@ -85,7 +85,7 @@ function Breadcrumbs({ icon, title, route, light }) {
         MDTypography fontWeight = "bold"
     textTransform = "capitalize"
     variant = "h6"
-    color = { light ? "white" : "dark" }
+    color = {light ? "white" : "dark"}
     noWrap > { title.replace("-", " ") } <
         /MDTypography> < /
     MDBox >

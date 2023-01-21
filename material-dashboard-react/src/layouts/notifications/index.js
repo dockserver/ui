@@ -69,9 +69,9 @@ function Notifications() {
         title = "Material Dashboard"
         content = "Hello, world! This is a notification message"
         dateTime = "11 mins ago"
-        open = { successSB }
-        onClose = { closeSuccessSB }
-        close = { closeSuccessSB }
+        open = {successSB}
+        onClose = {closeSuccessSB}
+        close = {closeSuccessSB}
         bgWhite /
         >
     );
@@ -81,9 +81,9 @@ function Notifications() {
         title = "Material Dashboard"
         content = "Hello, world! This is a notification message"
         dateTime = "11 mins ago"
-        open = { infoSB }
-        onClose = { closeInfoSB }
-        close = { closeInfoSB }
+        open = {infoSB}
+        onClose = {closeInfoSB}
+        close = {closeInfoSB}
         />
     );
 
@@ -93,9 +93,9 @@ function Notifications() {
         title = "Material Dashboard"
         content = "Hello, world! This is a notification message"
         dateTime = "11 mins ago"
-        open = { warningSB }
-        onClose = { closeWarningSB }
-        close = { closeWarningSB }
+        open = {warningSB}
+        onClose = {closeWarningSB}
+        close = {closeWarningSB}
         bgWhite /
         >
     );
@@ -106,9 +106,9 @@ function Notifications() {
         title = "Material Dashboard"
         content = "Hello, world! This is a notification message"
         dateTime = "11 mins ago"
-        open = { errorSB }
-        onClose = { closeErrorSB }
-        close = { closeErrorSB }
+        open = {errorSB}
+        onClose = {closeErrorSB}
+        close = {closeErrorSB}
         bgWhite /
         >
     );
@@ -118,23 +118,23 @@ function Notifications() {
         <
         DashboardNavbar / >
         <
-        MDBox mt = { 6 }
-        mb = { 3 } >
+        MDBox mt = {6}
+        mb = {3} >
         <
-        Grid container spacing = { 3 }
+        Grid container spacing = {3}
         justifyContent = "center" >
         <
-        Grid item xs = { 12 }
-        lg = { 8 } >
+        Grid item xs = {12}
+        lg = {8} >
         <
         Card >
         <
-        MDBox p = { 2 } >
+        MDBox p = {2} >
         <
         MDTypography variant = "h5" > Alerts < /MDTypography> < /
         MDBox > <
-        MDBox pt = { 2 }
-        px = { 2 } >
+        MDBox pt = {2}
+        px = {2} >
         <
         MDAlert color = "primary"
         dismissible > { alertContent("primary") } <
@@ -165,13 +165,13 @@ function Notifications() {
         Grid >
 
         <
-        Grid item xs = { 12 }
-        lg = { 8 } >
+        Grid item xs = {12}
+        lg = {8} >
         <
         Card >
         <
-        MDBox p = { 2 }
-        lineHeight = { 0 } >
+        MDBox p = {2}
+        lineHeight = {0} >
         <
         MDTypography variant = "h5" > Notifications < /MDTypography> <
         MDTypography variant = "button"
@@ -180,50 +180,50 @@ function Notifications() {
         Notifications on this page use Toasts from Bootstrap.Read more details here. <
         /MDTypography> < /
         MDBox > <
-        MDBox p = { 2 } >
+        MDBox p = {2} >
         <
-        Grid container spacing = { 3 } >
+        Grid container spacing = {3} >
         <
-        Grid item xs = { 12 }
-        sm = { 6 }
-        lg = { 3 } >
+        Grid item xs = {12}
+        sm = {6}
+        lg = {3} >
         <
         MDButton variant = "gradient"
         color = "success"
-        onClick = { openSuccessSB }
+        onClick = {openSuccessSB}
         fullWidth >
         success notification <
         /MDButton> { renderSuccessSB } < /
         Grid > <
-        Grid item xs = { 12 }
-        sm = { 6 }
-        lg = { 3 } >
+        Grid item xs = {12}
+        sm = {6}
+        lg = {3} >
         <
         MDButton variant = "gradient"
         color = "info"
-        onClick = { openInfoSB }
+        onClick = {openInfoSB}
         fullWidth >
         info notification <
         /MDButton> { renderInfoSB } < /
         Grid > <
-        Grid item xs = { 12 }
-        sm = { 6 }
-        lg = { 3 } >
+        Grid item xs = {12}
+        sm = {6}
+        lg = {3} >
         <
         MDButton variant = "gradient"
         color = "warning"
-        onClick = { openWarningSB }
+        onClick = {openWarningSB}
         fullWidth >
         warning notification <
         /MDButton> { renderWarningSB } < /
         Grid > <
-        Grid item xs = { 12 }
-        sm = { 6 }
-        lg = { 3 } >
+        Grid item xs = {12}
+        sm = {6}
+        lg = {3} >
         <
         MDButton variant = "gradient"
         color = "error"
-        onClick = { openErrorSB }
+        onClick = {openErrorSB}
         fullWidth >
         error notification <
         /MDButton> { renderErrorSB } < /

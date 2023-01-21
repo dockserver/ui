@@ -28,10 +28,10 @@ import MDTypography from "components/MDTypography";
 
 function DefaultNavbarLink({ icon, name, route, light }) {
     return ( <
-        MDBox component = { Link }
-        to = { route }
-        mx = { 1 }
-        p = { 1 }
+        MDBox component = {Link}
+        to = {route}
+        mx = {1}
+        p = {1}
         display = "flex"
         alignItems = "center"
         sx = {
@@ -47,7 +47,7 @@ function DefaultNavbarLink({ icon, name, route, light }) {
         /Icon> <
         MDTypography variant = "button"
         fontWeight = "regular"
-        color = { light ? "white" : "dark" }
+        color = {light ? "white" : "dark"}
         textTransform = "capitalize"
         sx = {
             { width: "100%", lineHeight: 0 }

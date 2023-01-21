@@ -30,16 +30,16 @@ import MDButton from "components/MDButton";
 
 function ProfilesList({ title, profiles, shadow }) {
     const renderProfiles = profiles.map(({ image, name, description, action }) => ( <
-        MDBox key = { name }
+        MDBox key = {name}
         component = "li"
         display = "flex"
         alignItems = "center"
-        py = { 1 }
-        mb = { 1 } >
+        py = {1}
+        mb = {1} >
         <
-        MDBox mr = { 2 } >
+        MDBox mr = {2} >
         <
-        MDAvatar src = { image }
+        MDAvatar src = {image}
         alt = "something here"
         shadow = "md" / >
         <
@@ -58,18 +58,18 @@ function ProfilesList({ title, profiles, shadow }) {
         MDBox > <
         MDBox ml = "auto" > {
             action.type === "internal" ? ( <
-                MDButton component = { Link }
-                to = { action.route }
+                MDButton component = {Link}
+                to = {action.route}
                 variant = "text"
                 color = "info" > { action.label } <
                 /MDButton>
             ) : ( <
                 MDButton component = "a"
-                href = { action.route }
+                href = {action.route}
                 target = "_blank"
                 rel = "noreferrer"
                 variant = "text"
-                color = { action.color } > { action.label } <
+                color = {action.color} > { action.label } <
                 /MDButton>
             )
         } <
@@ -82,21 +82,21 @@ function ProfilesList({ title, profiles, shadow }) {
             { height: "100%", boxShadow: !shadow && "none" }
         } >
         <
-        MDBox pt = { 2 }
-        px = { 2 } >
+        MDBox pt = {2}
+        px = {2} >
         <
         MDTypography variant = "h6"
         fontWeight = "medium"
         textTransform = "capitalize" > { title } <
         /MDTypography> < /
         MDBox > <
-        MDBox p = { 2 } >
+        MDBox p = {2} >
         <
         MDBox component = "ul"
         display = "flex"
         flexDirection = "column"
-        p = { 0 }
-        m = { 0 } > { renderProfiles } <
+        p = {0}
+        m = {0} > { renderProfiles } <
         /MDBox> < /
         MDBox > <
         /Card>

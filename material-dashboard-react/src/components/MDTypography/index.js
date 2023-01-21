@@ -32,8 +32,8 @@ const MDTypography = forwardRef(
         const { darkMode } = controller;
 
         return ( <
-            MDTypographyRoot {...rest }
-            ref = { ref }
+            MDTypographyRoot {...rest}
+            ref = {ref}
             ownerState = {
                 {
                     color,

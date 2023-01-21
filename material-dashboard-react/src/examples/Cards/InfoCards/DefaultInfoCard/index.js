@@ -29,15 +29,15 @@ function DefaultInfoCard({ color, icon, title, description, value }) {
     return ( <
             Card >
             <
-            MDBox p = { 2 }
-            mx = { 3 }
+            MDBox p = {2}
+            mx = {3}
             display = "flex"
             justifyContent = "center" >
             <
             MDBox display = "grid"
             justifyContent = "center"
             alignItems = "center"
-            bgColor = { color }
+            bgColor = {color}
             color = "white"
             width = "4rem"
             height = "4rem"
@@ -48,10 +48,10 @@ function DefaultInfoCard({ color, icon, title, description, value }) {
             Icon fontSize = "default" > { icon } < /Icon> < /
             MDBox > <
             /MDBox> <
-            MDBox pb = { 2 }
-            px = { 2 }
+            MDBox pb = {2}
+            px = {2}
             textAlign = "center"
-            lineHeight = { 1.25 } >
+            lineHeight = {1.25} >
             <
             MDTypography variant = "h6"
             fontWeight = "medium"

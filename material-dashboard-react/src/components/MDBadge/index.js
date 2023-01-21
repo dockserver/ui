@@ -23,11 +23,11 @@ import MDBadgeRoot from "components/MDBadge/MDBadgeRoot";
 
 const MDBadge = forwardRef(
     ({ color, variant, size, circular, indicator, border, container, children, ...rest }, ref) => ( <
-        MDBadgeRoot {...rest }
+        MDBadgeRoot {...rest}
         ownerState = {
             { color, variant, size, circular, indicator, border, container, children }
         }
-        ref = { ref }
+        ref = {ref}
         color = "default" > { children } <
         /MDBadgeRoot>
     )

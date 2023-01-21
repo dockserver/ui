@@ -88,11 +88,11 @@ function DataTable({
 
     // Render the paginations
     const renderPagination = pageOptions.map((option) => ( <
-        MDPagination item key = { option }
+        MDPagination item key = {option}
         onClick = {
             () => gotoPage(Number(option))
         }
-        active = { pageIndex === option } > { option + 1 } <
+        active = {pageIndex === option} > { option + 1 } <
         /MDPagination>
     ));
 
@@ -151,13 +151,13 @@ function DataTable({
                 MDBox display = "flex"
                 justifyContent = "space-between"
                 alignItems = "center"
-                p = { 3 } > {
+                p = {3} > {
                     entriesPerPage && ( <
                         MDBox display = "flex"
                         alignItems = "center" >
                         <
-                        Autocomplete disableClearable value = { pageSize.toString() }
-                        options = { entries }
+                        Autocomplete disableClearable value = {pageSize.toString()}
+                        options = {entries}
                         onChange = {
                             (event, newValue) => {
                                 setEntriesPerPage(parseInt(newValue, 10));
@@ -168,7 +168,7 @@ function DataTable({
                             { width: "5rem" }
                         }
                         renderInput = {
-                            (params) => < MDInput {...params }
+                            (params) => < MDInput {...params}
                             />} / >
                             <
                             MDTypography variant = "caption"
@@ -184,7 +184,7 @@ function DataTable({
                             ml = "auto" >
                             <
                             MDInput placeholder = "Search..."
-                            value = { search }
+                            value = {search}
                             size = "small"
                             fullWidth onChange = {
                                 ({ currentTarget }) => {
@@ -199,16 +199,16 @@ function DataTable({
                     /MDBox>
                 ): null
             } <
-            Table {...getTableProps() } >
+            Table {...getTableProps()} >
             <
             MDBox component = "thead" > {
                 headerGroups.map((headerGroup) => ( <
-                    TableRow {...headerGroup.getHeaderGroupProps() } > {
+                    TableRow {...headerGroup.getHeaderGroupProps()} > {
                         headerGroup.headers.map((column) => ( <
-                            DataTableHeadCell {...column.getHeaderProps(isSorted && column.getSortByToggleProps()) }
-                            width = { column.width ? column.width : "auto" }
-                            align = { column.align ? column.align : "left" }
-                            sorted = { setSortedValue(column) } > { column.render("Header") } <
+                            DataTableHeadCell {...column.getHeaderProps(isSorted && column.getSortByToggleProps())}
+                            width = {column.width ? column.width : "auto"}
+                            align = {column.align ? column.align : "left"}
+                            sorted = {setSortedValue(column)} > { column.render("Header") } <
                             /DataTableHeadCell>
                         ))
                     } <
@@ -216,14 +216,14 @@ function DataTable({
                 ))
             } <
             /MDBox> <
-            TableBody {...getTableBodyProps() } > {
+            TableBody {...getTableBodyProps()} > {
                 page.map((row, key) => {
                     prepareRow(row);
                     return ( <
-                        TableRow {...row.getRowProps() } > {
+                        TableRow {...row.getRowProps()} > {
                             row.cells.map((cell) => ( <
-                                DataTableBodyCell noBorder = { noEndBorder && rows.length - 1 === key }
-                                align = { cell.column.align ? cell.column.align : "left" } {...cell.getCellProps() } > { cell.render("Cell") } <
+                                DataTableBodyCell noBorder = {noEndBorder && rows.length - 1 === key}
+                                align = {cell.column.align ? cell.column.align : "left"} {...cell.getCellProps()} > { cell.render("Cell") } <
                                 /DataTableBodyCell>
                             ))
                         } <
@@ -244,7 +244,7 @@ function DataTable({
             alignItems = {
                 { xs: "flex-start", sm: "center" }
             }
-            p = {!showTotalEntries && pageOptions.length === 1 ? 0 : 3 } > {
+            p = {!showTotalEntries && pageOptions.length === 1 ? 0 : 3} > {
                 showTotalEntries && ( <
                     MDBox mb = {
                         { xs: 3, sm: 0 }
@@ -262,8 +262,8 @@ function DataTable({
                 )
             } {
                 pageOptions.length > 1 && ( <
-                    MDPagination variant = { pagination.variant ? pagination.variant : "gradient" }
-                    color = { pagination.color ? pagination.color : "info" } > {
+                    MDPagination variant = {pagination.variant ? pagination.variant : "gradient"}
+                    color = {pagination.color ? pagination.color : "info"} > {
                         canPreviousPage && ( <
                             MDPagination item onClick = {
                                 () => previousPage()
@@ -277,12 +277,12 @@ function DataTable({
                     } {
                         renderPagination.length > 6 ? ( <
                             MDBox width = "5rem"
-                            mx = { 1 } >
+                            mx = {1} >
                             <
                             MDInput inputProps = {
                                 { type: "number", min: 1, max: customizedPageOptions.length }
                             }
-                            value = { customizedPageOptions[pageIndex] }
+                            value = {customizedPageOptions[pageIndex]}
                             onChange = {
                                 (handleInputPagination, handleInputPaginationValue)
                             }

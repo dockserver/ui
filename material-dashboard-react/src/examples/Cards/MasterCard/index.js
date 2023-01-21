@@ -55,11 +55,11 @@ function MasterCard({ color, number, holder, expires }) {
         } >
         <
         MDBox position = "absolute"
-        top = { 0 }
-        left = { 0 }
+        top = {0}
+        left = {0}
         width = "100%"
         height = "100%"
-        opacity = { 0.2 }
+        opacity = {0.2}
         sx = {
             {
                 backgroundImage: `url(${pattern})`,
@@ -68,12 +68,12 @@ function MasterCard({ color, number, holder, expires }) {
         }
         /> <
         MDBox position = "relative"
-        zIndex = { 2 }
-        p = { 2 } >
+        zIndex = {2}
+        p = {2} >
         <
         MDBox color = "white"
-        p = { 1 }
-        lineHeight = { 0 }
+        p = {1}
+        lineHeight = {0}
         display = "inline-block" >
         <
         Icon fontSize = "default" > wifi < /Icon> < /
@@ -92,13 +92,13 @@ function MasterCard({ color, number, holder, expires }) {
         MDBox display = "flex"
         alignItems = "center" >
         <
-        MDBox mr = { 3 }
-        lineHeight = { 1 } >
+        MDBox mr = {3}
+        lineHeight = {1} >
         <
         MDTypography variant = "button"
         color = "white"
         fontWeight = "regular"
-        opacity = { 0.8 } >
+        opacity = {0.8} >
         Card Holder <
         /MDTypography> <
         MDTypography variant = "h6"
@@ -107,12 +107,12 @@ function MasterCard({ color, number, holder, expires }) {
         textTransform = "capitalize" > { holder } <
         /MDTypography> < /
         MDBox > <
-        MDBox lineHeight = { 1 } >
+        MDBox lineHeight = {1} >
         <
         MDTypography variant = "button"
         color = "white"
         fontWeight = "regular"
-        opacity = { 0.8 } >
+        opacity = {0.8} >
         Expires <
         /MDTypography> <
         MDTypography variant = "h6"
@@ -126,10 +126,10 @@ function MasterCard({ color, number, holder, expires }) {
         width = "20%" >
         <
         MDBox component = "img"
-        src = { masterCardLogo }
+        src = {masterCardLogo}
         alt = "master card"
         width = "60%"
-        mt = { 1 }
+        mt = {1}
         /> < /
         MDBox > <
         /MDBox> < /

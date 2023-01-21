@@ -39,7 +39,7 @@ function PageLayout({ background, children }) {
         MDBox width = "100vw"
         height = "100%"
         minHeight = "100vh"
-        bgColor = { background }
+        bgColor = {background}
         sx = {
             { overflowX: "hidden" }
         } > { children } <

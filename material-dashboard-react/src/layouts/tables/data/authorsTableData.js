@@ -30,14 +30,14 @@ export default function data() {
     const Author = ({ image, name, email }) => ( <
         MDBox display = "flex"
         alignItems = "center"
-        lineHeight = { 1 } >
+        lineHeight = {1} >
         <
-        MDAvatar src = { image }
-        name = { name }
+        MDAvatar src = {image}
+        name = {name}
         size = "sm" / >
         <
-        MDBox ml = { 2 }
-        lineHeight = { 1 } >
+        MDBox ml = {2}
+        lineHeight = {1} >
         <
         MDTypography display = "block"
         variant = "button"
@@ -49,7 +49,7 @@ export default function data() {
     );
 
     const Job = ({ title, description }) => ( <
-        MDBox lineHeight = { 1 }
+        MDBox lineHeight = {1}
         textAlign = "left" >
         <
         MDTypography display = "block"
@@ -71,13 +71,13 @@ export default function data() {
         ],
 
         rows: [{
-                author: < Author image = { team2 }
+                author: < Author image = {team2}
                 name = "John Michael"
                 email = "john@creative-tim.com" / > ,
                 function: < Job title = "Manager"
                 description = "Organization" / > ,
                 status: ( <
-                    MDBox ml = {-1 } >
+                    MDBox ml = {-1} >
                     <
                     MDBadge badgeContent = "online"
                     color = "success"
@@ -106,13 +106,13 @@ export default function data() {
                 ),
             },
             {
-                author: < Author image = { team3 }
+                author: < Author image = {team3}
                 name = "Alexa Liras"
                 email = "alexa@creative-tim.com" / > ,
                 function: < Job title = "Programator"
                 description = "Developer" / > ,
                 status: ( <
-                    MDBox ml = {-1 } >
+                    MDBox ml = {-1} >
                     <
                     MDBadge badgeContent = "offline"
                     color = "dark"
@@ -141,13 +141,13 @@ export default function data() {
                 ),
             },
             {
-                author: < Author image = { team4 }
+                author: < Author image = {team4}
                 name = "Laurent Perrier"
                 email = "laurent@creative-tim.com" / > ,
                 function: < Job title = "Executive"
                 description = "Projects" / > ,
                 status: ( <
-                    MDBox ml = {-1 } >
+                    MDBox ml = {-1} >
                     <
                     MDBadge badgeContent = "online"
                     color = "success"
@@ -176,13 +176,13 @@ export default function data() {
                 ),
             },
             {
-                author: < Author image = { team3 }
+                author: < Author image = {team3}
                 name = "Michael Levi"
                 email = "michael@creative-tim.com" / > ,
                 function: < Job title = "Programator"
                 description = "Developer" / > ,
                 status: ( <
-                    MDBox ml = {-1 } >
+                    MDBox ml = {-1} >
                     <
                     MDBadge badgeContent = "online"
                     color = "success"
@@ -211,13 +211,13 @@ export default function data() {
                 ),
             },
             {
-                author: < Author image = { team3 }
+                author: < Author image = {team3}
                 name = "Richard Gran"
                 email = "richard@creative-tim.com" / > ,
                 function: < Job title = "Manager"
                 description = "Executive" / > ,
                 status: ( <
-                    MDBox ml = {-1 } >
+                    MDBox ml = {-1} >
                     <
                     MDBadge badgeContent = "offline"
                     color = "dark"
@@ -246,13 +246,13 @@ export default function data() {
                 ),
             },
             {
-                author: < Author image = { team4 }
+                author: < Author image = {team4}
                 name = "Miriam Eric"
                 email = "miriam@creative-tim.com" / > ,
                 function: < Job title = "Programator"
                 description = "Developer" / > ,
                 status: ( <
-                    MDBox ml = {-1 } >
+                    MDBox ml = {-1} >
                     <
                     MDBadge badgeContent = "offline"
                     color = "dark"
