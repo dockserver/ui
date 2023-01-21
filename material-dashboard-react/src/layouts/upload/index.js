@@ -202,7 +202,7 @@ function Dashboard() {
             MDBox > <
             Footer / >
             <
-            /DashboardLayout>
+            /UploadLayout>
         );
     }
 

@@ -28,12 +28,12 @@ import ReportsLineChart from "examples/Charts/LineCharts/ReportsLineChart";
 import ComplexStatisticsCard from "examples/Cards/StatisticsCards/ComplexStatisticsCard";
 
 // Data
-import reportsBarChartData from "layouts/upload/data/reportsBarChartData";
-import reportsLineChartData from "layouts/upload/data/reportsLineChartData";
+import reportsBarChartData from "layouts/complete/data/reportsBarChartData";
+import reportsLineChartData from "layouts/complete/data/reportsLineChartData";
 
 // Dashboard components
-import Projects from "layouts/upload/components/Projects";
-import OrdersOverview from "layouts/upload/components/OrdersOverview";
+import Projects from "layouts/complete/components/Projects";
+import OrdersOverview from "layouts/complete/components/OrdersOverview";
 
 function Dashboard() {
     const { sales, tasks } = reportsLineChartData;
@@ -202,8 +202,8 @@ function Dashboard() {
             MDBox > <
             Footer / >
             <
-            /DashboardLayout>
+            /CompleteLayout>
         );
     }
 
-    export default Dashboard;
+    export default Cpmplete;

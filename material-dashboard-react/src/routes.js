@@ -38,8 +38,8 @@ Coded by www.creative-tim.com
 // Uploader Dashboard 2 layouts
 import Dashboard from "layouts/dashboard";
 import Tables from "layouts/tables";
-import Uploading from "layouts/uploading";
-import Done from "layouts/comeplete";
+import Upload from "layouts/upload";
+import Complete from "layouts/complete";
 
 // @mui icons
 import Icon from "@mui/material/Icon";
@@ -62,19 +62,19 @@ const routes = [{
     },
     {
         type: "collapse",
-        name: "Uploading",
-        key: "uploading",
+        name: "Upload",
+        key: "upload",
         icon: < Icon fontSize = "small" > uploading < /Icon>,
         route: "/upload",
-        component: < Uploading / > ,
+        component: < Upload / > ,
     },
     {
         type: "collapse",
-        name: "Done",
-        key: "done",
-        icon: < Icon fontSize = "small" > done < /Icon>,
+        name: "Complete",
+        key: "complete",
+        icon: < Icon fontSize = "small" > complete < /Icon>,
         route: "/complete",
-        component: < Done / > ,
+        component: < Complete / > ,
     },
 ];
 
