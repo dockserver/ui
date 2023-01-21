@@ -346,7 +346,7 @@ function Configurator() {
         /MDBox> < /
         M DBox > <
         <
-        /onfigur <atorRoot>
+        /ConfiguratorRoot>
     );
 }
 

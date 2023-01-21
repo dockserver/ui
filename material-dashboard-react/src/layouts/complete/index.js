@@ -1,9 +1,9 @@
 /**
 =========================================================
-* Uploader Dashboard 2 - v2.1.0
+* Uploader Complete 2 - v2.1.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
+* Product Page: https://www.creative-tim.com/product/material-Complete-react
 * Copyright 2022 Creative Tim (https://www.creative-tim.com)
 
 Coded by www.creative-tim.com
@@ -16,11 +16,11 @@ Coded by www.creative-tim.com
 // @mui material components
 import Grid from "@mui/material/Grid";
 
-// Uploader Dashboard 2 components
+// Uploader Complete 2 components
 import MDBox from "components/MDBox";
 
-// Uploader Dashboard 2 example components
-import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
+// Uploader Complete 2 example components
+import CompleteLayout from "examples/LayoutContainers/CompleteLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
 import ReportsBarChart from "examples/Charts/BarCharts/ReportsBarChart";
@@ -31,15 +31,15 @@ import ComplexStatisticsCard from "examples/Cards/StatisticsCards/ComplexStatist
 import reportsBarChartData from "layouts/complete/data/reportsBarChartData";
 import reportsLineChartData from "layouts/complete/data/reportsLineChartData";
 
-// Dashboard components
+// Complete components
 import Projects from "layouts/complete/components/Projects";
 import OrdersOverview from "layouts/complete/components/OrdersOverview";
 
-function Dashboard() {
+function Complete() {
     const { sales, tasks } = reportsLineChartData;
 
     return ( <
-        DashboardLayout >
+        CompleteLayout >
         <
         DashboardNavbar / >
         <
@@ -206,4 +206,4 @@ function Dashboard() {
         );
     }
 
-    export default Cpmplete;
+    export default Complete;

@@ -1,9 +1,9 @@
 /**
 =========================================================
-* Uploader Dashboard 2 - v2.1.0
+* Uploader Upload 2 - v2.1.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
+* Product Page: https://www.creative-tim.com/product/material-Upload-react
 * Copyright 2022 Creative Tim (https://www.creative-tim.com)
 
 Coded by www.creative-tim.com
@@ -16,12 +16,12 @@ Coded by www.creative-tim.com
 // @mui material components
 import Grid from "@mui/material/Grid";
 
-// Uploader Dashboard 2 components
+// Uploader Upload 2 components
 import MDBox from "components/MDBox";
 
-// Uploader Dashboard 2 example components
-import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
-import DashboardNavbar from "examples/Navbars/DashboardNavbar";
+// Uploader Upload 2 example components
+import UploadLayout from "examples/LayoutContainers/UploadLayout";
+import DashboardNavbar from "examples/Navbars/DashboardNavbar;
 import Footer from "examples/Footer";
 import ReportsBarChart from "examples/Charts/BarCharts/ReportsBarChart";
 import ReportsLineChart from "examples/Charts/LineCharts/ReportsLineChart";
@@ -31,15 +31,15 @@ import ComplexStatisticsCard from "examples/Cards/StatisticsCards/ComplexStatist
 import reportsBarChartData from "layouts/upload/data/reportsBarChartData";
 import reportsLineChartData from "layouts/upload/data/reportsLineChartData";
 
-// Dashboard components
+// Upload components
 import Projects from "layouts/upload/components/Projects";
 import OrdersOverview from "layouts/upload/components/OrdersOverview";
 
-function Dashboard() {
+function Upload() {
     const { sales, tasks } = reportsLineChartData;
 
     return ( <
-        DashboardLayout >
+        UploadLayout >
         <
         DashboardNavbar / >
         <
@@ -206,4 +206,4 @@ function Dashboard() {
         );
     }
 
-    export default Complete;
+    export default Upload;
