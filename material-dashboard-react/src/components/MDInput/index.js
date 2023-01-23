@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Uploader Dashboard 2 - v2.1.0
+* Material Dashboard 2 React - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-dashboard-react
@@ -21,27 +21,22 @@ import PropTypes from "prop-types";
 // Custom styles for MDInput
 import MDInputRoot from "components/MDInput/MDInputRoot";
 
-const MDInput = forwardRef(({ error, success, disabled, ...rest }, ref) => ( <
-    MDInputRoot {...rest}
-    ref = {ref}
-    ownerState = {
-        { error, success, disabled }
-    }
-    />
+const MDInput = forwardRef(({ error, success, disabled, ...rest }, ref) => (
+  <MDInputRoot {...rest} ref={ref} ownerState={{ error, success, disabled }} />
 ));
 
 // Setting default values for the props of MDInput
 MDInput.defaultProps = {
-    error: false,
-    success: false,
-    disabled: false,
+  error: false,
+  success: false,
+  disabled: false,
 };
 
 // Typechecking props for the MDInput
 MDInput.propTypes = {
-    error: PropTypes.bool,
-    success: PropTypes.bool,
-    disabled: PropTypes.bool,
+  error: PropTypes.bool,
+  success: PropTypes.bool,
+  disabled: PropTypes.bool,
 };
 
 export default MDInput;
